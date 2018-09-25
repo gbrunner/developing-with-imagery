@@ -2,23 +2,10 @@
 Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
 ## Course Schedule
-| Week | Topics |
---- | --- | ---
+| Week | Topics 
+|--- | --- | --- 
 | 1    | Imagery in ArcGIS Pro |
 | 2    | Mosaic Datasets (in ArcGIS Pro) |
-| 3    |  |
-| 4    |  |
-| 5    |  |
-| 6    |  |
-| 7    |  |
-| 8    |  |
-| 9    |  |
-| 10   |  |
-| 11   |  |
-| 12   |  |
-| 13   |  |
-| 14   |  |
-| 15   |  |
 
 
 ### Week 1
