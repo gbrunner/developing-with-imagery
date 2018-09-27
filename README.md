@@ -1,14 +1,26 @@
 # enterprise-imagery-management-dissemination-analysis
 Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
+## Prerequisites
+- Intro to GIS (uising ArcGIS Pro)
+- A Python Course
+- An ArcGIS Server\Enterprise Course
+
 ## Course Schedule
 | Week    | Topics | Date |
 |---------|--------| ---- |
 | 1    | Imagery in ArcGIS Pro |
 | 2    | Mosaic Datasets (in ArcGIS Pro) |
 | 3    | Raster Functions |
-| 4    | Python Raster Functions |
-| 5    |  |
+| 4    | Raster Processing with Python\Numpy |
+| 5    | Python Raster Functions |
+| 6    |  |
+| 7    |  |
+| 8    |  |
+| 9    |  |
+| 10   |  |
+| 11   |  |
+| 12   |  |
 | 13   | Using Imagery in ArcGIS Online |
 | 14   | Using Imagery in the ArcGIS API for Javascript |
 | 15   | Using Image Services with the ArcGIS API for Python |
