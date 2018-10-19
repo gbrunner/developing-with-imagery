@@ -17,22 +17,28 @@ You know what NDVI means. You have already learned what SAR is and how to use it
 ## Course Schedule
 | Week    | Topics | Date |
 |---------|--------| ---- |
-| 1    | Imagery in ArcGIS Pro |
+| 1    | Imagery in ArcGIS Pro|
 | 2    | Mosaic Datasets (in ArcGIS Pro) |
-| 3    | Raster Functions |
-| 4    | Raster Processing with Python\Numpy |
-| 5    | Python Raster Functions |
-| 6    | Rasters in S3 |
-| 7    | Image Server Deployment |
-| 8    | Image Server Use - Image Services |
-| 9    | Image Server Use - Raster Analytics |
-| 10   | Advanced Raster Analytics - Algorithms (Scientific Analysis and Machine Learning) |
-| 11   | Advanced Methods - Leveraging AWS for Automation |
-| 12   | Using Imagery in ArcGIS Online & the ArcGIS API for Javascrip |
-| 13   | Using Imagery with the ArcGIS API for Python |
+| 3    | Raster Processing with Python\Numpy (more traditional method) |
+| 4    | Python Raster Functions (Paradigm for analysis at scale) |
+| 5    | Rasters in S3 |
+| 6    | Image Server Deployment |
+| 7    | Image Server Use - Image Services |
+| 8    | Image Server Use - Raster Analytics |
+| 9    | Advanced Raster Analytics - Algorithms (Scientific Analysis and Machine Learning) |
+| ~~10~~   |~~Advanced Methods - Leveraging AWS for Automation~~ |
+| 10   | Using Imagery in ArcGIS Online & the ArcGIS API for Javascript |
+| 11   | Advanced methods with Javascript |
+| 12   | Using Imagery with the ArcGIS API for Python |
+| 13   |Advanced Methods with the ArcGIS API for Python |
 | 14   | Special Topics: Drone Mapping (Drone2Map) |
 | 15   | Special Topics: OrthoMapping (ArcGIS Pro & Server) |
 
+## Structure of the Course
+- Weeks 1 - 5: Desktop
+- Weeks 6 - 0: Server
+- Weeks 10 - 13: Developer and Miscilaneous
+- Weeks 14, 15: Creating Imagery Products
 
 ### Week 1
 Imagery in ArcGIS Pro
