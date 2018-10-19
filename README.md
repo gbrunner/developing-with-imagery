@@ -37,7 +37,7 @@ You know what NDVI means. You have already learned what SAR is and how to use it
 ## Structure of the Course
 - Weeks 1 - 5: Desktop
 - Weeks 6 - 0: Server
-- Weeks 10 - 13: Developer and Miscilaneous
+- Weeks 10 - 13: ArcGIS Online & Web Development
 - Weeks 14, 15: Creating Imagery Products
 
 ### Week 1
