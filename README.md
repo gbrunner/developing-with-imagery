@@ -58,3 +58,11 @@ Imagery in ArcGIS Pro
 - Talk about other file formats
 
 ### Week 3
+
+### Week 5
+- download 8 jp2 images (stitched orthos basically)
+- convert to MRF locally
+- copy to S3
+- create local raster proxy files
+- add to mosaic in PostgreSQL
+- publish as image service
