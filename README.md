@@ -60,9 +60,10 @@ Imagery in ArcGIS Pro
 ### Week 3
 
 ### Week 5
-- download 8 jp2 images (stitched orthos basically)
-- convert to MRF locally
+- [Optimize Rasters](https://github.com/Esri/OptimizeRasters/)
+- download 8 jp2\jpeg\tiff images 
+- ~~convert to MRF locally~~
 - copy to S3
-- create local raster proxy files
+- create local raster proxy files using [Optimize Rasters](https://github.com/Esri/OptimizeRasters/)
 - add to mosaic in PostgreSQL
 - publish as image service
