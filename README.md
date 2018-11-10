@@ -1,14 +1,22 @@
 # enterprise-imagery-management-dissemination-analysis
 Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
+## Instructor Information
+Instructor:	Gregory Brunner
+Email Address:	gbrunner@esri.com
+Office Hours:	By request
+
 ## Description
-You know what NDVI means. You have already learned what SAR is and how to use it. You even know a little bit or raster algebra. What you really want to knoww, however, is *how does Esri create and maintain their [global Landast service](https://aws.amazon.com/earth/)?*  *How do I use Python to interface with ArcGIS Image Services?* *What can I do with drone imagery?*  In **Enterprise Imagery Management, Dissemination, and Analysis**, you will learn how to create global imagery mosaics, write and implement advanced imagery analysis algorithms, apply these analytical methods at scale using AWS and raster Analyics.
+You know what NDVI means. You have already learned what SAR is and how to use it. You even know a little bit or raster algebra. What you really want to know, however, is *how does Esri create and maintain their [global Landast service](https://aws.amazon.com/earth/)?*  *How do I use Python to interface with ArcGIS Image Services?* *What can I do with drone imagery?*  In **Enterprise Imagery Management, Dissemination, and Analysis**, you will learn how to create global imagery mosaics, write and implement advanced imagery analysis algorithms, apply these analytical methods at scale using AWS and raster Analyics.
 
 ## Course Objectives
 
+## Textbooks
+None
+
 ## Prerequisites
-- Intro to GIS (uising ArcGIS Pro)
-- A Python Course
+- Intro to GIS (using ArcGIS Pro)
+- Programming with Python
 - An ArcGIS Server\Enterprise Course
 - Classical Remote Sensing
 
@@ -27,10 +35,10 @@ You know what NDVI means. You have already learned what SAR is and how to use it
 | 8    | Image Server Use - Raster Analytics |
 | 9    | Advanced Raster Analytics - Algorithms (Scientific Analysis and Machine Learning) |
 | ~~10~~   |~~Advanced Methods - Leveraging AWS for Automation~~ |
-| 10   | Using Imagery in ArcGIS Online & the ArcGIS API for Javascript |
-| 11   | Advanced methods with Javascript |
+| 10   | Using Imagery in ArcGIS Online |
+| 11   | Using Imagery with the ArcGIS API for Javascript |
 | 12   | Using Imagery with the ArcGIS API for Python |
-| 13   |Advanced Methods with the ArcGIS API for Python |
+| 13   | Advanced Methods with the ArcGIS API for Python |
 | 14   | Special Topics: Drone Mapping (Drone2Map) |
 | 15   | Special Topics: OrthoMapping (ArcGIS Pro & Server) |
 
