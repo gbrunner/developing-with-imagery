@@ -3,7 +3,9 @@ Repo for develping materials for a class in Enterprise Imagery Management, Disse
 
 ## Instructor Information
 Instructor:	Gregory Brunner
+
 Email Address:	gbrunner@esri.com
+
 Office Hours:	By request
 
 ## Description
