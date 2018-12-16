@@ -75,3 +75,6 @@ Imagery in ArcGIS Pro
 - create local raster proxy files using [Optimize Rasters](https://github.com/Esri/OptimizeRasters/)
 - add to mosaic in PostgreSQL
 - publish as image service
+
+### Week 10
+Chapter 9 of Pinde Fu's [**Getting to Know WebGIS**](https://esripress.esri.com/storage/esripress/images/353/gtkwebgis_third_toc.pdf)
