@@ -2,9 +2,9 @@
 Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
 ## Instructor Information
-Instructor:	Gregory Brunner
-Email Address:	gbrunner@esri.com
-Office Hours:	By request
+Instructor:	Gregory Brunner  
+Email Address:	gbrunner@esri.com  
+Office Hours:	By request  
 
 ## Description
 You know what NDVI means. You have already learned what SAR is and how to use it. You even know a little bit or raster algebra. What you really want to know, however, is *how does Esri create and maintain their [global Landast service](https://aws.amazon.com/earth/)?*  *How do I use Python to interface with ArcGIS Image Services?* *What can I do with drone imagery?*  In **Enterprise Imagery Management, Dissemination, and Analysis**, you will learn how to create global imagery mosaics, write and implement advanced imagery analysis algorithms, apply these analytical methods at scale using AWS and raster Analyics.
