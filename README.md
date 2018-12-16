@@ -29,7 +29,7 @@ None
 | 2    | Mosaic Datasets (in ArcGIS Pro) |
 | 3    | Raster Processing with Python\Numpy (more traditional method) |
 | 4    | Python Raster Functions (Paradigm for analysis at scale) |
-| 5    | Rasters in S3 |
+| 5    | Rasters in S3 - Optimize Rasters|
 | 6    | Image Server Deployment |
 | 7    | Image Server Use - Image Services |
 | 8    | Image Server Use - Raster Analytics |
