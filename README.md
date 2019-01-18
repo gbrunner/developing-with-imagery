@@ -7,7 +7,7 @@ Email Address:	gbrunner@esri.com
 Office Hours:	By request  
 
 ## Description
-You know what NDVI means. You have already learned what SAR is and how to use it. You even know a little bit or raster algebra. What you really want to know, however, is *how does Esri create and maintain their [global Landast service](https://aws.amazon.com/earth/)?*  *How do I use Python to interface with ArcGIS Image Services?* *What can I do with drone imagery?*  In **Enterprise Imagery Management, Dissemination, and Analysis**, you will learn how to create global imagery mosaics, write and implement advanced imagery analysis algorithms, apply these analytical methods at scale using AWS and raster Analyics.
+You know what NDVI means. You have already learned what SAR is and how to use it. You even know a little bit or raster algebra. What you really want to know, however, is *how does Esri create and maintain their [global Landast service](https://aws.amazon.com/earth/)?*  *How do I use Python to interface with ArcGIS Image Services?* *What can I do with drone imagery?*  In **Enterprise Imagery Management, Dissemination, and Analysis**, you will learn how to create global imagery mosaics, write and implement advanced imagery analysis algorithms, apply these analytical methods at scale using AWS and raster Analyics. You will also learn techniques for processing and analysing imagery collected by drones and other highly oblique imagery datasets.
 
 ## Course Objectives
 
@@ -40,7 +40,7 @@ None
 | 12   | Using Imagery with the ArcGIS API for Python |
 | 13   | Advanced Methods with the ArcGIS API for Python |
 | 14   | Special Topics: Drone Mapping (Drone2Map) |
-| 15   | Special Topics: OrthoMapping (ArcGIS Pro & Server) |
+| 15   | Special Topics: Ortho Mapping (ArcGIS Pro) and Ortho Maker (Server) |
 
 ## Structure of the Course
 - Weeks 1 - 5: Desktop
