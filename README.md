@@ -15,11 +15,12 @@ None
 
 ## Prerequisites
 - Intro to GIS (using ArcGIS Pro)
+- Intro to Remote Sensing
 - Programming with Python
-- An ArcGIS Server\Enterprise Course
-- Classical Remote Sensing
+- Familiarity with ArcGIS Server\Enterprise
 
 ## Textbooks
+No textbook! All course materials and readings will be available online for free.
 
 ## Course Schedule
 | Week    | Topics | Date |
