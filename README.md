@@ -17,7 +17,7 @@ You know what NDVI means. You have already learned what SAR is and how to use it
 - Familiarity with ArcGIS Server\Enterprise
 
 ## Textbooks
-No textbook! All course materials and readings will be available online for free.
+No textbook! All course readings will be available online for free.
 
 ## Course Schedule
 | Week    | Topics | Date |
