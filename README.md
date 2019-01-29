@@ -10,9 +10,6 @@ You know what NDVI means. You have already learned what SAR is and how to use it
 
 ## Course Objectives
 
-## Textbooks
-None
-
 ## Prerequisites
 - Intro to GIS (using ArcGIS Pro)
 - Intro to Remote Sensing
