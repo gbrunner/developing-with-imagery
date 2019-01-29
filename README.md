@@ -1,4 +1,4 @@
-# enterprise-imagery-management-dissemination-analysis
+# Modern workflows for geospatial imagery
 Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
 ## Instructor Information
@@ -35,7 +35,6 @@ None
 | 8    | Image Server - Image Services |
 | 9    | Image Server Use - Raster Analytics |
 | 10   | Advanced Raster Analytics - Algorithms (Scientific Analysis and Machine Learning) |
-| ~~10~~   |~~Advanced Methods - Leveraging AWS for Automation~~ |
 | 11   | Using Imagery with the ArcGIS API for Javascript |
 | 12   | Using Imagery with the ArcGIS API for Python |
 | 13   | Advanced Methods with the ArcGIS API for Python |
@@ -77,7 +76,6 @@ Python Raster Functions
 ### Week 5
 - [Optimize Rasters](https://github.com/Esri/OptimizeRasters/)
 - download 8 jp2\jpeg\tiff images 
-- ~~convert to MRF locally~~
 - copy to S3
 - create local raster proxy files using [Optimize Rasters](https://github.com/Esri/OptimizeRasters/)
 - add to mosaic in PostgreSQL
