@@ -1,5 +1,4 @@
 # Modern workflows for geospatial imagery
-Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
 ## Instructor Information
 Instructor:	Gregory Brunner  
