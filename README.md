@@ -25,7 +25,7 @@ None
 ## Course Schedule
 | Week    | Topics | Date |
 |---------|--------| ---- |
-| 1    | Imagery in ArcGIS Pro|
+| 1    | "What's Old is New" - Using Imagery from the Cloud in ArcGIS Pro|
 | 2    | Mosaic Datasets (in ArcGIS Pro) |
 | 3    | Raster Processing with Python\Numpy (more traditional method) |
 | 4    | Python Raster Functions (Paradigm for analysis at scale) |
