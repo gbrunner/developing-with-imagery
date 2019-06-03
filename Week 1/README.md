@@ -16,8 +16,11 @@
 - Sqgue into next week to mosaic against data in S3
 
 
-# Assignment
-- ~~Connect to [NAIP](https://registry.opendata.aws/naip/)~~ (Requester Pays. How can this work?!)
+# Datasets
+- [Landsat-8 Public Bucket](https://registry.opendata.aws/landsat-8/)
+  - https://landsatonaws.com/
+- [NAIP is Requester Pays](https://registry.opendata.aws/naip/)
+- [USGS Lidar is Requester Pays](https://registry.opendata.aws/usgs-lidar/)
 
 # Links
 - [Earth on AWS - Datasets](https://registry.opendata.aws/?search=tags:gis,earth%20observation,events,mapping,meteorological,environmental,transportation)
