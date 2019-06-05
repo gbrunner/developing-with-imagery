@@ -18,6 +18,7 @@
   - Datasets:
     - [Landsat 5 (TM)](https://eos.com/landsat-5-tm/)
     - [Landsat 7 (ETM)](https://landsat.gsfc.nasa.gov/the-enhanced-thematic-mapper-plus/)
+### What else?
 - Processing Functions applied to imagery.
 - Download locally?
 - Mosaic from local download.
