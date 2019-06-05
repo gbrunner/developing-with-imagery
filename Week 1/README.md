@@ -3,6 +3,7 @@
 # Class Preparation
 - Watch [How Esri Optimizes for Analytics in the Cloud](https://youtu.be/U486YxlDoeM)
 - Optionally Wach Anything from [AWS Re-Invent](https://aws.amazon.com/earth/)
+- ArcGIS Pro Textbook Chapter on Imagery?
 
 # Lecture
 ## Connecting to the Cloud
