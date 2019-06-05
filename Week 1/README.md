@@ -6,11 +6,11 @@
 
 # Lecture
 ## Connecting to the Cloud
-- Connect to Landsat-8 on AWS using [Cloud Store Connection](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-cloud-stores.htm)
+1. Connect to Landsat-8 on AWS using [Cloud Store Connection](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-cloud-stores.htm)
   - Using AWS S3 COnnection
   - Using Azure Connetion
   - Using Google Cloud Connection?
-- Connect to **Landsat Archive on AWS**
+2. Connect to **Landsat Archive on AWS**
   - Connection parameters:
     - http://landsatarchives.s3.amazonaws.com/
     - Bucketname: landsatarchives
