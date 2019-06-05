@@ -27,20 +27,21 @@ None
 |---------|--------| ---- |
 | 1    | "What's Old is New" - Using Imagery from the Cloud in ArcGIS Pro|
 | 2    | Mosaic Datasets (in ArcGIS Pro) |
-| 3    | Raster Processing with Python\Numpy (more traditional method) |
+| ~~3~~  | ~~Raster Processing with Python\Numpy (more traditional method)~~ |
+| 3    | ["Raster Function, What's Your Function?"](https://www.youtube.com/watch?v=RPoBE-E8VOc) - Raster Functions vs. Geoprocessing |
 | 4    | Python Raster Functions (Paradigm for analysis at scale) |
-| 5    | Rasters in S3 - Optimize Rasters|
-| 6    | Using Imagery in ArcGIS Online |
-| 7    | Image Server Deployment |
-| 8    | Image Server - Image Services |
-| 9    | Image Server Use - Raster Analytics |
-| 10   | Advanced Raster Analytics - Algorithms (Scientific Analysis and Machine Learning) |
+| ~~5~~   | ~~Rasters in S3 - Optimize Rasters~~|
+| ~~6~~    | ~~Using Imagery in ArcGIS Online~~ (Rolled into Week 3)|
+| 5    | Image Server Deployment |
+| 6    | Image Server - Image Services |
+| 7    | Image Server Use - Raster Analytics |
+| 8   | Advanced Raster Analytics - Algorithms (Scientific Analysis and Machine Learning) |
 | ~~10~~   |~~Advanced Methods - Leveraging AWS for Automation~~ |
-| 11   | Using Imagery with the ArcGIS API for Javascript |
-| 12   | Using Imagery with the ArcGIS API for Python |
-| 13   | Advanced Methods with the ArcGIS API for Python |
-| 14   | Special Topics: Drone Mapping (Drone2Map) |
-| 15   | Special Topics: Ortho Mapping (ArcGIS Pro) and Ortho Maker (Server) |
+| 9   | Using Imagery with the ArcGIS API for Javascript and REST API |
+| 10   | Using Imagery with the ArcGIS API for Python |
+| 11   | Advanced Methods with the ArcGIS API for Python |
+| 12   | Special Topics: Drone Mapping (Drone2Map) |
+| 13   | Special Topics: Ortho Mapping (ArcGIS Pro) and Ortho Maker (Server) |
 
 ## Structure of the Course
 - Weeks 1 - 5: Desktop
