@@ -27,7 +27,7 @@ None
 |---------|--------| ---- |
 | 1    | "What's Old is New" - Using Imagery from the Cloud in ArcGIS Pro|
 | 2    | Mosaic Datasets (in ArcGIS Pro) |
-~~| 3  | Raster Processing with Python\Numpy (more traditional method) |~~
+| ~~3~~  | ~~Raster Processing with Python\Numpy (more traditional method)~~ |
 | 3    | ["Raster Function, What's Your Function?"](https://www.youtube.com/watch?v=RPoBE-E8VOc) - Raster Functions vs. Geoprocessing |
 | 4    | Python Raster Functions (Paradigm for analysis at scale) |
 | 5    | Rasters in S3 - Optimize Rasters|
