@@ -6,7 +6,7 @@
 
 # Lecture
 ## Connecting to the Cloud
-### Connect to Landsat-8 on AWS using [Cloud Store Connection](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-cloud-stores.htm)
+### Connect to Landsat 8 on AWS using [Cloud Store Connection](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-cloud-stores.htm)
   - Using AWS S3 COnnection
   - Using Azure Connetion
   - Using Google Cloud Connection?
@@ -18,7 +18,7 @@
   - Datasets:
     - [Landsat 5 (TM)](https://eos.com/landsat-5-tm/)
     - [Landsat 7 (ETM)](https://landsat.gsfc.nasa.gov/the-enhanced-thematic-mapper-plus/)
-### What else?
+### What Else?
 - Processing Functions applied to imagery.
 - Download locally?
 - Mosaic from local download.
