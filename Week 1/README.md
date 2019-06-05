@@ -6,6 +6,8 @@
 
 # Lecture
 ## Connecting to the Cloud
+### [Landsat Path Rows](https://www.usgs.gov/land-resources/nli/landsat/landsat-shapefiles-and-kml-files)
+
 ### Connect to Landsat 8 on AWS using [Cloud Store Connection](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-cloud-stores.htm)
   - Using AWS S3 COnnection
   - Using Azure Connetion
