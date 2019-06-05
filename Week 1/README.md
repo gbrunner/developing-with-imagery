@@ -2,6 +2,7 @@
 
 # Class Preparation
 - Watch [How Esri Optimizes for Analytics in the Cloud](https://youtu.be/U486YxlDoeM)
+- [Slides](https://www.slideshare.net/AmazonWebServices/how-esri-optimizes-massive-image-archives-for-analytics-in-the-cloud-abd402-reinvent-2017)
 - Optionally Wach Anything from [AWS Re-Invent](https://aws.amazon.com/earth/)
 - ArcGIS Pro Textbook Chapter on Imagery?
 
@@ -10,7 +11,7 @@
 ### [Landsat Path Rows](https://www.usgs.gov/land-resources/nli/landsat/landsat-shapefiles-and-kml-files)
 
 ### Connect to Landsat 8 on AWS using [Cloud Store Connection](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-cloud-stores.htm)
-  - Using AWS S3 COnnection
+  - Using AWS S3 Connection
   - Using Azure Connetion
   - Using Google Cloud Connection?
 ### Connect to **Landsat Archive on AWS**
