@@ -4,5 +4,14 @@
     - [From Last Week](https://www.slideshare.net/AmazonWebServices/how-esri-optimizes-massive-image-archives-for-analytics-in-the-cloud-abd402-reinvent-2017)
     - [MRF](https://community.esri.com/thread/212729-mrf-s3-mosaics-caches-and-optimization)
     - [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
+    - [MDCS](https://github.com/Esri/mdcs-py)
 2. Watch:
     - [Optimize Rasters](https://www.youtube.com/watch?v=NEu0BYA1jAA)
+
+
+
+
+
+# Github Links
+  - [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
+  - [MDCS](https://github.com/Esri/mdcs-py)
