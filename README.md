@@ -1,6 +1,9 @@
 # enterprise-imagery-management-dissemination-analysis
 Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
+# AWS Course Credits
+https://www.awseducate.com/educator/s/classroomsandcredits
+
 ## Instructor Information
 Instructor:	Gregory Brunner  
 Email Address:	gbrunner@esri.com  
