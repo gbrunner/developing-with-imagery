@@ -28,8 +28,8 @@ None
 ## Course Schedule
 | Week    | Topics | Date |
 |---------|--------| ---- |
-| 1    | "What's Old is New" - Using Imagery from the Cloud in ArcGIS Pro |
-| 2    | Mosaic Datasets from Imagery in Cloud Storage (S3 and Azure) |
+| 1    | "That's Meta" - Using Imagery from the Cloud in ArcGIS Pro |
+| 2    | "What's Old is New" - Mosaic Datasets from Imagery in Cloud Storage (S3 and Azure) |
 | 3    | ["Raster Function, What's Your Function?"](https://www.youtube.com/watch?v=RPoBE-E8VOc) - Raster Functions vs. Geoprocessing |
 | 4    | Python Raster Functions (Paradigm for analysis at scale) |
 | 5    | Image Server Deployment |
