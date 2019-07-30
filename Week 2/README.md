@@ -1,3 +1,5 @@
+# "What's Old Is New"
+
 # Preparation
 1. Read:
     - [Managing Imagery in the Cloud](http://proceedings.esri.com/library/userconf/proc17/tech-workshops/tw_630-625.pdf)
