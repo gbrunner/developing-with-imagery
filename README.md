@@ -1,6 +1,9 @@
 # enterprise-imagery-management-dissemination-analysis
 Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
+# AWS Course Credits
+https://www.awseducate.com/educator/s/classroomsandcredits
+
 ## Instructor Information
 Instructor:	Gregory Brunner  
 Email Address:	gbrunner@esri.com  
@@ -25,23 +28,24 @@ None
 ## Course Schedule
 | Week    | Topics | Date |
 |---------|--------| ---- |
-| 1    | "What's Old is New" - Using Imagery from the Cloud in ArcGIS Pro|
-| 2    | Mosaic Datasets (in ArcGIS Pro) |
-| ~~3~~  | ~~Raster Processing with Python\Numpy (more traditional method)~~ |
+| 1    | "What's Old is New" - Using Imagery from the Cloud in ArcGIS Pro |
+| 2    | Mosaic Datasets from Imagery in Cloud Storage (S3 and Azure) |
 | 3    | ["Raster Function, What's Your Function?"](https://www.youtube.com/watch?v=RPoBE-E8VOc) - Raster Functions vs. Geoprocessing |
 | 4    | Python Raster Functions (Paradigm for analysis at scale) |
-| ~~5~~   | ~~Rasters in S3 - Optimize Rasters~~|
-| ~~6~~    | ~~Using Imagery in ArcGIS Online~~ (Rolled into Week 3)|
 | 5    | Image Server Deployment |
 | 6    | Image Server - Image Services |
-| 7    | Image Server Use - Raster Analytics |
-| 8   | Advanced Raster Analytics - Algorithms (Scientific Analysis and Machine Learning) |
-| ~~10~~   |~~Advanced Methods - Leveraging AWS for Automation~~ |
-| 9   | Using Imagery with the ArcGIS API for Javascript and REST API |
+| 7    | Image Server - Raster Analytics |
+| 8    | Advanced Raster Analytics - Algorithms (Scientific Analysis and Machine Learning) |
+| 9    | Using Imagery with the ArcGIS API for Javascript and REST API |
 | 10   | Using Imagery with the ArcGIS API for Python |
-| 11   | Advanced Methods with the ArcGIS API for Python |
-| 12   | Special Topics: Drone Mapping (Drone2Map) |
-| 13   | Special Topics: Ortho Mapping (ArcGIS Pro) and Ortho Maker (Server) |
+| 11   | Image Space in ArcGIS Pro and Excalibur |
+| 12   | Drone Imagery in ArcGIS - Drone2Map and FMV in Pro |
+| ~~3~~  | ~~Raster Processing with Python\Numpy (more traditional method)~~ |
+| ~~5~~   | ~~Rasters in S3 - Optimize Rasters~~|
+| ~~6~~    | ~~Using Imagery in ArcGIS Online~~ (Rolled into Week 3)|
+| ~~10~~   |~~Advanced Methods - Leveraging AWS for Automation~~ |
+| ~~11~~   | ~~Advanced Methods with the ArcGIS API for Python~~ |
+| ~~13~~   | ~~Special Topics: Ortho Mapping (ArcGIS Pro) and Ortho Maker (Server)~~ |
 
 ## Structure of the Course
 - Weeks 1 - 5: Desktop
