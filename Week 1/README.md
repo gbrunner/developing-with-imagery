@@ -1,4 +1,4 @@
-# "That's Meta"~~"What's Old Is New"~~
+# "That's Meta"
 
 # Class Preparation
 - Watch [How Esri Optimizes for Analytics in the Cloud](https://youtu.be/U486YxlDoeM)
