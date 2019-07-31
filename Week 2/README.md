@@ -17,7 +17,7 @@
 3. Add rasters to container.
 4. Get *Acess Key* from **Access keys**
 5. Create **Cloud Storage Connection** file.
-![]( image .png)
+![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/azure_private_connection.png)
 
 ### AWS S3
 
