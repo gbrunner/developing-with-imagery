@@ -21,7 +21,7 @@
 
 ### AWS S3
 
-### Requester Pays
+### [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
 
 
 # Github Links
