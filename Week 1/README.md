@@ -38,6 +38,8 @@
   - Datasets:
     - [Landsat 5 (TM)](https://eos.com/landsat-5-tm/)
     - [Landsat 7 (ETM)](https://landsat.gsfc.nasa.gov/the-enhanced-thematic-mapper-plus/)
+### SpacecNet Public Bucket
+  - [SpaceNet on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html)
 
 # Assignment
 1. 
