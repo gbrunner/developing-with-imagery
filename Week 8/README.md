@@ -29,9 +29,10 @@ The objective of this Assignment is to test how accurately the xView model detec
 
 Extract Bands Function -> Pansharpen Function -> Resample Function -> Stretch Function
 
-**Helpful Hint:** If you are having trouble, first try detecting objects in the **Validation Dataset**.
+**Helpful Hint:** If you are having trouble, first try detecting objects in the [**Validation Dataset**.](https://challenge.xviewdataset.org/download-links)
 
 ## Helpful Links
 - https://spacenetchallenge.github.io/
 - ```aws s3 ls s3://spacenet-dataset/```
 - [GeoAI](https://medium.com/geoai)
+- [Get the training and validation data](https://challenge.xviewdataset.org/download-links)
