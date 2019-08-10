@@ -18,6 +18,7 @@
 - [What is xView?](http://xviewdataset.org/)
 - [Getting Started with xView](https://medium.com/@dariusl/getting-started-with-the-diux-xview-dataset-for-overhead-object-detection-84fc4d918d09)
 - [xView Baseline Results](https://medium.com/picterra/the-xview-dataset-and-baseline-results-5ab4a1d0f47f)
+- [Baseline Model v1.1](https://github.com/DIUx-xView/baseline/releases)
  
 #### Objective
 The objective of this Assignment is to test how accurately the xView model detects objects around Khartoum International Airport in Sudan and Hatfield International Airport in Atlanta. You can learn more about these datasets here: https://spacenetchallenge.github.io/.
