@@ -19,5 +19,10 @@
 - [xView Baseline Results](https://medium.com/picterra/the-xview-dataset-and-baseline-results-5ab4a1d0f47f)
  
 #### Objective
-The objective of this Assignment is to test how accurately the xView model detects objects around Khartoum International Airport in Sudan and Hatfield International Airport in Atlanta.
+The objective of this Assignment is to test how accurately the xView model detects objects around Khartoum International Airport in Sudan and Hatfield International Airport in Atlanta. You can learn more about these datasets here: https://spacenetchallenge.github.io/.
+
+1. Khartoum Airport: Run the deep learning model using Detect Objects Using Deep Learning using the multires.pd model. Note that
+
+2. Hatfield Airport: Run the deep learning model using Detect Objects Using Deep Learning using the multires.pd model. In order for this to work, you will have to process the Hatfield Airport images into a 30 cm pixel pansharped RGB image with pixels that scale from 0 to 255. Create a raster function chain to process the PAN and MS images into a 30 cm pixel image that will work with the multires.pb model. That function chain will look something like:
+Extract Bands Function -> Pansharpen Function -> Resample Function -> Stretch Function
 
