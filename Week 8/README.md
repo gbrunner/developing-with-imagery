@@ -5,6 +5,7 @@
 ## Deep Learning and AI
 
 ### Lecture
+- [Deep Learning in ArcGIS Storymap](https://www.arcgis.com/apps/Cascade/index.html?appid=3723542905dd41c4b05831443459286e)
 
 ### Lesson - [Using Deep Learning to Assess Palm Tree Health](https://learn.arcgis.com/en/projects/use-deep-learning-to-assess-palm-tree-health/)
 1. Install [TensorFlow](https://pro.arcgis.com/en/pro-app/tool-reference/image-analyst/set-up-tensorflow-deep-learning-framework-for-arcgis.htm#ESRI_SECTION1_C30D73392D964D51A8B606128A8A6E8F)
@@ -32,3 +33,4 @@ Extract Bands Function -> Pansharpen Function -> Resample Function -> Stretch Fu
 ## Helpful Links
 - https://spacenetchallenge.github.io/
 - ```aws s3 ls s3://spacenet-dataset/```
+- [GeoAI](https://medium.com/geoai)
