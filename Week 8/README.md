@@ -12,4 +12,5 @@
 3. [Detect Palm Trees](https://learn.arcgis.com/en/projects/use-deep-learning-to-assess-palm-tree-health/lessons/detect-palm-trees-with-a-deep-learning-model.htm)
 4. [Estimate Palm Tree Health](https://learn.arcgis.com/en/projects/use-deep-learning-to-assess-palm-tree-health/lessons/estimate-vegetation-health.htm)
 
-### Assignment
+### Assignment - Detecting Objects Using the xView Model
+
