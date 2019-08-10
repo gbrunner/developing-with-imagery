@@ -12,5 +12,12 @@
 3. [Detect Palm Trees](https://learn.arcgis.com/en/projects/use-deep-learning-to-assess-palm-tree-health/lessons/detect-palm-trees-with-a-deep-learning-model.htm)
 4. [Estimate Palm Tree Health](https://learn.arcgis.com/en/projects/use-deep-learning-to-assess-palm-tree-health/lessons/estimate-vegetation-health.htm)
 
-### Assignment - Detecting Objects Using the xView Model
+### Assignment - Detecting Objects Using the [xView](http://xviewdataset.org/) TensorFlow Model
+#### Read the following
+- [What is xView?](http://xviewdataset.org/)
+- [Getting Started with xView](https://medium.com/@dariusl/getting-started-with-the-diux-xview-dataset-for-overhead-object-detection-84fc4d918d09)
+- [xView Baseline Results](https://medium.com/picterra/the-xview-dataset-and-baseline-results-5ab4a1d0f47f)
+ 
+#### Objective
+The objective of this Assignment is to test how accurately the xView model detects objects around Khartoum International Airport in Sudan and Hatfield International Airport in Atlanta.
 
