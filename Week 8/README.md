@@ -26,6 +26,8 @@ The objective of this Assignment is to test how accurately the xView model detec
 2. Hatfield Airport: Run the deep learning model using Detect Objects Using Deep Learning using the multires.pd model. In order for this to work, you will have to process the Hatfield Airport images into a 30 cm pixel pansharped RGB image with pixels that scale from 0 to 255. Create a raster function chain to process the PAN and MS images into a 30 cm pixel image that will work with the multires.pb model. That function chain will look something like:
 Extract Bands Function -> Pansharpen Function -> Resample Function -> Stretch Function
 
+**Helpful Hint:** If you are having trouble, first try detecting objects in the **Validation Dataset**.
+
 ## Helpful Links
 - https://spacenetchallenge.github.io/
 - ```aws s3 ls s3://spacenet-dataset/```
