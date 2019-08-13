@@ -9,9 +9,14 @@
 2. Watch:
     - [Optimize Rasters](https://www.youtube.com/watch?v=NEu0BYA1jAA)
 
-# Lecture
+# Lecture - Interfacing with AWS and Azure
+## ArcGIS Mosaic Datasets
 
+## [GDAL](https://pypi.org/project/GDAL/) and Python
+1. Already installed in ArcGIS Pro's Conda environment
 
+## rasterio and Python
+1. Need to ```conda install rasterio```
 
 # Github Links
   - [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
