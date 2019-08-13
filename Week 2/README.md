@@ -15,7 +15,7 @@
 ## [GDAL](https://pypi.org/project/GDAL/) and Python
 1. Already installed in ArcGIS Pro's Conda environment
 
-## rasterio and Python
+## [rasterio](https://rasterio.readthedocs.io/en/stable/) and Python
 1. Need to ```conda install rasterio```
 
 # Github Links
