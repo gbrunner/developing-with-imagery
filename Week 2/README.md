@@ -16,7 +16,7 @@
 1. Already installed in ArcGIS Pro's Conda environment
 
 ## [rasterio](https://rasterio.readthedocs.io/en/stable/) and Python
-1. Need to ```conda install rasterio```
+1. Need to [```conda install rasterio```](https://github.com/conda-forge/rasterio-feedstock)
 
 # Github Links
   - [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
