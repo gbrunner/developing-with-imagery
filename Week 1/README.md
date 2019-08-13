@@ -41,6 +41,19 @@
 ### SpacecNet Public Bucket
   - [SpaceNet on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html)
 
+## Private Buckets
+### Azure Blob Storage
+1. Create a storage account, i.e. *jhuimagery*.
+2. Create a container, i.e. *naip*.
+3. Add rasters to container.
+4. Get *Acess Key* from **Access keys**
+5. Create **Cloud Storage Connection** file.
+![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/azure_private_connection.png)
+
+### AWS S3
+
+### [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
+
 # Assignment
 1. 
 2. Create a mosaic of all of the NAIP data for a single state. Feel free to use sample notebook and\or NAIP index file.
