@@ -16,7 +16,9 @@
 1. Already installed in ArcGIS Pro's Conda environment
 
 ## [rasterio](https://rasterio.readthedocs.io/en/stable/) and Python
+**Rasterio** is a Python wrapper around *GDAL* that is used specifically for working with raster (imagery) data.
 1. Need to [```conda install rasterio```](https://github.com/conda-forge/rasterio-feedstock)
+2. **Exercise:** [Working with Raster Datasets](https://geohackweek.github.io/raster/04-workingwithrasters/)
 
 # Github Links
   - [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
