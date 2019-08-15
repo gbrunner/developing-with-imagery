@@ -11,10 +11,11 @@
 
 # Lecture - Interfacing with imagery in Azure, AWS, and Google Cloud
 ## Part 1 - ArcGIS Mosaic Datasets
-1. Build a mosaic and add a single AWS band collection manually.
-2. Build a second mosaic and add an entire path row over **your_aoi_here**
-3. Introduc [MDCS](https://github.com/Esri/mdcs-py)
-4. Show configuration of MDCS and resulting mosaic.
+1. Build a mosaic from the NAIP on Azure raster proxies.
+2. Build a mosaic and add a single AWS band collection manually.
+3. Build a second mosaic and add an entire path row over **your_aoi_here**
+4. Introduc [MDCS](https://github.com/Esri/mdcs-py)
+5. Show configuration of MDCS and resulting mosaic.
 
 ## Part 2 - Interfacing with the same imagery through GDAL and rasterio
 
