@@ -9,13 +9,19 @@
 2. Watch:
     - [Optimize Rasters](https://www.youtube.com/watch?v=NEu0BYA1jAA)
 
-# Lecture - Interfacing with AWS and Azure
-## ArcGIS Mosaic Datasets
+# Lecture - Interfacing with imagery in Azure, AWS, and Google Cloud
+## Part 1 - ArcGIS Mosaic Datasets
+1. Build a mosaic and add a single AWS band collection manually.
+2. Build a second mosaic and add an entire path row over **your_aoi_here**
+3. Introduc [MDCS](https://github.com/Esri/mdcs-py)
+4. Show configuration of MDCS and resulting mosaic.
 
-## [GDAL](https://pypi.org/project/GDAL/) and Python
+## Part 2 - Interfacing with the same imagery through GDAL and rasterio
+
+### [GDAL](https://pypi.org/project/GDAL/) and Python
 1. Already installed in ArcGIS Pro's Conda environment
 
-## [rasterio](https://rasterio.readthedocs.io/en/stable/) and Python
+### [rasterio](https://rasterio.readthedocs.io/en/stable/) and Python
 **Rasterio** is a Python wrapper around *GDAL* that is used specifically for working with raster (imagery) data.
 
 1. Install ```rasterio``` and ```boto3``` into **arcgispro-py3-clone** environment
