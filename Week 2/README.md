@@ -20,7 +20,7 @@
 1. Create a rasterio Python environment
   - ```conda create --name rasterio-env```
   - ```conda activate rasterio-env```
-  - ```conda install -c conda-forge rasterio```. Need to [```conda install rasterio```](https://github.com/conda-forge/rasterio-feedstock)
+  - ```conda install -c conda-forge rasterio```. For instructions, go to [```conda install rasterio```](https://github.com/conda-forge/rasterio-feedstock)
 2. **Exercise:** [Working with Raster Datasets](https://geohackweek.github.io/raster/04-workingwithrasters/)
 
 # Github Links
