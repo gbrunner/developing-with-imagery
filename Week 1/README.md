@@ -50,12 +50,20 @@
 5. Create **Cloud Storage Connection** file.
 ![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/azure_private_connection.png)
 
+## Optimize Rasters
+### OptimizeRasters is a set of tools for converting raster data to optimized Tiled TIF or MRF files, moving data to cloud storage, and creating Raster Proxies. It can do a lot of the work for us!
+1. Create an MRF file from NAIP locally. 
+2. Add to ArcGIS pro
+3. Create an MRF file from NAIP in Azure storage.
+4. Add to ArcGIS Pro.
+
 ### AWS S3
 
 ### [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
 
 # Assignment
-1. 
+1. Use GDAL Translate to create raster procxies from a folder of DEMs (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*). Then, using ArcGIS Pro, create a mosaic dataset from those raster proxies. Build Overviews.
+2. Use Optimize Rasters to take a folder of elevation data (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*), convert to MRF, and load into Azure Storage Account.
 2. Create a mosaic of all of the NAIP data for a single state. Feel free to use sample notebook and\or NAIP index file.
 
 ### What Else?
