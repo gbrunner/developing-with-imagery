@@ -14,3 +14,8 @@ Here, we will use the [DAYMET climatelogical dataset](https://thredds.daac.ornl.
 1. With Python GDAL
 2. With Python Raster Functions
 
+# Exercise
+1. Run through the ArcGIS Tutorial on [Multidimensional raster analysis in ArcGIS Pro](https://doc.arcgis.com/en/imagery/workflows/tutorials/multidimensional-raster-analysis-in-arcgis-pro.htm?adumkts=product&adupro=ArcGIS_Image_Analyst&aduc=social&adum=external&utm_Source=social&aduca=Imagery&RemoteSensing&adulb=multiple&adusn=multiple&aduat=blog&sf_id=701f2000000rpWvAAI)
+
+# Challenges
+
