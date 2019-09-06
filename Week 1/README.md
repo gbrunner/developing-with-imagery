@@ -3,6 +3,7 @@
 # Class Preparation
 - Watch [How Esri Optimizes for Analytics in the Cloud](https://youtu.be/U486YxlDoeM)
 - [Slides](https://www.slideshare.net/AmazonWebServices/how-esri-optimizes-massive-image-archives-for-analytics-in-the-cloud-abd402-reinvent-2017)
+- [Manageing and Servince Imagery](https://www.esri.com/content/dam/esrisites/en-us/about/events/media/UC-2019/technical-workshops/tw-5755-977.pdf)
 - Optionally Wach Anything from [AWS Re-Invent](https://aws.amazon.com/earth/)
 - ArcGIS Pro Textbook Chapter on Imagery?
 
