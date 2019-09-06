@@ -1,4 +1,5 @@
 # 3D and 4D Data
+[Digital Earth Africa](https://www.africageoportal.com/pages/digital-earth-africa)
 
 ## [Multidimensional Data](https://www.esri.com/arcgis-blog/products/arcgis-pro/imagery/multidimensional-analysis-arcgis-pro/)
 
