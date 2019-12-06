@@ -1,4 +1,6 @@
 # Full Motion Video in ArcGIS Pro
+## Videos
+- [Full Motion Video in Pro 2.2](https://www.esri.com/videos/watch?videoid=rGFZT9yWzRM&title=full-motion-video-in-arcgis-pro-2-2)
 ## Lecture
 I will demonstrate using video from a drone for my lecture
 
