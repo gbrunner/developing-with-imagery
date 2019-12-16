@@ -10,7 +10,10 @@
 Take an existing PRF, create the raster function template, and apply it to a raster. Then explain the pieces of the raster function.
 1. Using a [HydroSHEDS DEM](https://hydrosheds.cr.usgs.gov/dataavail.php)
 2. Create a hillshade raster function from the [Hillshade Python Raster Function](https://github.com/Esri/raster-functions/blob/master/functions/Hillshade.py)
-3.
+3. Apply hillshade raster function to the DEM. Remember to iclude the [utils.py](https://github.com/Esri/raster-functions/blob/master/functions/utils.py) file in the same directory as the Hillshade.py.
+4. How does it look?
+5. Run the ArcGIS Hillshade function. How do they compare?
+6. So how do we create this raster function?
 
 ## Demonstrate writing the Python Raster Function
 1. Extract pixel blocks
