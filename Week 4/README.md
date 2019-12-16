@@ -8,6 +8,9 @@
 # Lecture
 ## Apply a Python Raster Function
 Take an existing PRF, create the raster function template, and apply it to a raster. Then explain the pieces of the raster function.
+1. Using a [HydroSHEDS DEM](https://hydrosheds.cr.usgs.gov/dataavail.php)
+2. Create a hillshade raster function from the [Hillshade Python Raster Function](https://github.com/Esri/raster-functions/blob/master/functions/Hillshade.py)
+3.
 
 ## Demonstrate writing the Python Raster Function
 1. Extract pixel blocks
