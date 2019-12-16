@@ -16,9 +16,9 @@ Take an existing PRF, create the raster function template, and apply it to a ras
 6. So how do we create this raster function?
 
 ## Demonstrate writing the Python Raster Function
-1. Extract pixel blocks
+1. Extract pixel blocks using PRFBaseDebugTemplate.py
 2. Look at pixel blocks in a notebook.
-3. Write algorithm
+3. Write algorithm using pixel blocks.
 4. Put algorithm into PRF.
 
 ## Extract pixel blocks from other datasets
