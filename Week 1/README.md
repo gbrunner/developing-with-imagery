@@ -19,28 +19,46 @@
   - gdal_translate.exe - Use GDAL Translate to create a raster proxy.
 ## MRF
   - Show MRF file structure
-## Landsat in AWS
+# COG
+  - [Cloud Optimized GeoTiff](https://www.cogeo.org/)
+## [Landsat in AWS](https://aws.amazon.com/blogs/aws/start-using-landsat-on-aws/)
   - [Landsat Path Rows](https://www.usgs.gov/land-resources/nli/landsat/landsat-shapefiles-and-kml-files)
   - Use Python to create proxies form Landsat on AWS
   - Create proxies for multiple TIFs and show that they can be composited into a Landsat type raster.
-## NAIP on Azure
-  - Use Python to create proxies from NAIP on Azure for Missouri (or perhaps a smaller state).
+## [NAIP on Azure](https://azure.microsoft.com/en-us/services/open-datasets/catalog/naip/)
   - [NAIP Index file](https://naipblobs.blob.core.windows.net/naip-index/naip-index.zip)
-  - Mosaic the proxies.
-## Finish with creating a [Cloud Store Connection](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-cloud-stores.htm) for Landsat on AWS and NAIP
+
+## [ArcGIS Cloud Store Connections](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-cloud-stores.htm) for Landsat on AWS and NAIP
   - Using AWS S3 Connection
   - Using Azure Connetion
   - Using Google Cloud Connection?
+  
 ### Connect to **Landsat Archive on AWS**
   - Connection parameters:
-  - http://landsatarchives.s3.amazonaws.com/
+  - URL: http://landsatarchives.s3.amazonaws.com/
+  - Service Endpoint: s3-us-west-2.amazonaws.com
   - Bucketname: landsatarchives
   - Region: US West
   - Datasets:
     - [Landsat 5 (TM)](https://eos.com/landsat-5-tm/)
     - [Landsat 7 (ETM)](https://landsat.gsfc.nasa.gov/the-enhanced-thematic-mapper-plus/)
+    
+### Connect to **Landsat-8 on AWS
+  - Connection parameters:
+  - Service Endpoint: s3-us-west-2.amazonaws.com
+  - Bucketname: landsat-pds
+  - Region: US West (Oregon)
+  
+### NAIP
+  - Service Provider: AZURE
+  - Bucket Name: naip
+  - Access Key ID (Account Name): naipblobs
+  - Region: Azure Cloud
+  - Service Endpoint: blob.core.windows.net
+  
 ### SpacecNet Public Bucket
   - [SpaceNet on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html)
+  - You'll connect to this for your homework\exercise.
 
 ## Private Buckets
 ### Azure Blob Storage
@@ -63,13 +81,21 @@
 ### [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
 
 # Assignment
-1. Create an ArcGIS Pro Project where you make a cloud stoage connection to the spacenet-dataset S3 bucket and you visuzlize a few images from one of the AOIs in the S3 bucket. Answer the following questions:
+1. Connect to Landsat-8 on AWS. The connection parameters are:
+  - Service Endpoint: s3-us-west-2.amazonaws.com
+  - Bucketname: landsat-pds
+  - Region: US West (Oregon)
+  - Provider Option:
+    - ARC_DEEP_CRAWL | NO
+    - AWS_NO_SIGN_REQUEST | YES
+2. Create an ArcGIS Pro Project where you make a cloud stoage connection to the spacenet-dataset S3 bucket and you visuzlize a few images from one of the AOIs in the S3 bucket. Answer the following questions:
 - What cities are there? 
 - What is the resolution of the image that you selected? 
 - What is the Pixel Type of the image that you selected? 
 - What is the Bit Depth of the image that you selected?
-2. Create a Jupyter Notebook where you list all of the Cloud Optimized GeoTiffs (COG.TIF) Pansaharpened Multispecral (PS-MS) files for **AOI_2_Vegas**. For a selected image, can you write a script that prints out the information you gathered above?
-3. Use Optimize Rasters to take a folder of elevation data (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*), convert to MRF, and load into Azure Storage Account.
+3. Create a Jupyter Notebook where you list all of the Cloud Optimized GeoTiffs (COG.TIF) Pansaharpened Multispecral (PS-MS) files for **AOI_2_Vegas**. For a selected image, can you write a script that prints out the information you gathered above?
+4. Use Optimize Rasters to take a folder of elevation data (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*), convert to MRF, and load into Azure Storage Account.
+
 ~~1. Use GDAL Translate to create raster procxies from a folder of DEMs (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*). Then, using ArcGIS Pro, create a mosaic dataset from those raster proxies. Build Overviews.~~
 ~~3. Create a mosaic of all of the NAIP data for a single state. Feel free to use sample notebook and\or NAIP index file.~~
 
