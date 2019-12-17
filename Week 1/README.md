@@ -74,9 +74,7 @@
 3. Create an MRF file from NAIP in Azure storage.
 4. Add to ArcGIS Pro.
 
-### AWS S3
-
-### [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
+### AWS S3 [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
 
 # Assignment
 1. Connect to Landsat-8 on AWS. The connection parameters are:
