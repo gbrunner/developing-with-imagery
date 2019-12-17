@@ -34,7 +34,6 @@
   - Using Google Cloud Connection?
   
 ### Connect to **Landsat Archive on AWS**
-  - Connection parameters:
   - URL: http://landsatarchives.s3.amazonaws.com/
   - Service Endpoint: s3-us-west-2.amazonaws.com
   - Bucketname: landsatarchives
@@ -44,7 +43,6 @@
     - [Landsat 7 (ETM)](https://landsat.gsfc.nasa.gov/the-enhanced-thematic-mapper-plus/)
     
 ### Connect to **Landsat-8 on AWS
-  - Connection parameters:
   - Service Endpoint: s3-us-west-2.amazonaws.com
   - Bucketname: landsat-pds
   - Region: US West (Oregon)
