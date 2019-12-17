@@ -63,9 +63,15 @@
 ### [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
 
 # Assignment
-1. Use GDAL Translate to create raster procxies from a folder of DEMs (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*). Then, using ArcGIS Pro, create a mosaic dataset from those raster proxies. Build Overviews.
-2. Use Optimize Rasters to take a folder of elevation data (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*), convert to MRF, and load into Azure Storage Account.
-2. Create a mosaic of all of the NAIP data for a single state. Feel free to use sample notebook and\or NAIP index file.
+1. Create an ArcGIS Pro Project where you make a cloud stoage connection to the spacenet-dataset S3 bucket and you visuzlize a few images from one of the AOIs in the S3 bucket. Answer the following questions:
+- What cities are there? 
+- What is the resolution of the image that you selected? 
+- What is the Pixel Type of the image that you selected? 
+- What is the Bit Depth of the image that you selected?
+2. Create a Jupyter Notebook where you list all of the Cloud Optimized GeoTiffs (COG.TIF) Pansaharpened Multispecral (PS-MS) files for **AOI_2_Vegas**. For a selected image, can you write a script that prints out the information you gathered above?
+3. Use Optimize Rasters to take a folder of elevation data (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*), convert to MRF, and load into Azure Storage Account.
+~~1. Use GDAL Translate to create raster procxies from a folder of DEMs (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*). Then, using ArcGIS Pro, create a mosaic dataset from those raster proxies. Build Overviews.~~
+~~3. Create a mosaic of all of the NAIP data for a single state. Feel free to use sample notebook and\or NAIP index file.~~
 
 ### What Else?
 - Processing Functions applied to imagery.
