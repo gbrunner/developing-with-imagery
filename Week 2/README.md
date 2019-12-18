@@ -1,4 +1,5 @@
-# "What's Old Is New"
+# How did they do that?
+How did Microsoft get those NAIP MRFs into blob storage? The theme of this lecture is working towards understanding how to create image services that use imagery in S3 by first understanding how the imagery gets into S3.
 
 # Preparation
 1. Read:
