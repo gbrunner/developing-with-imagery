@@ -76,15 +76,6 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted
   - [SpaceNet on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html)
   - You'll connect to this for your homework\exercise.
 
-## Private Buckets
-### Azure Blob Storage
-1. Create a storage account, i.e. *jhuimagery*.
-2. Create a container, i.e. *naip*.
-3. Add rasters to container.
-4. Get *Acess Key* from **Access keys**
-5. Create **Cloud Storage Connection** file.
-![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/azure_private_connection.png)
-
 # Lecture 3 - Interfacing with the same imagery through GDAL and rasterio in Python
 
 ### [GDAL](https://pypi.org/project/GDAL/) and Python
@@ -97,8 +88,6 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted
   - ```conda install boto3```
   - ```conda install -c conda-forge rasterio```. For instructions, go to [```conda install rasterio```](https://github.com/conda-forge/rasterio-feedstock)
 2. For more information, please see: **Exercise:** [Working with Raster Datasets](https://geohackweek.github.io/raster/04-workingwithrasters/)
-
-### AWS S3 [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
 
 # Assignment
 1. Connect to Landsat-8 on AWS. The connection parameters are:
