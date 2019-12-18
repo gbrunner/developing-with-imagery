@@ -26,10 +26,16 @@ GDAL is a translator library for raster and vector geospatial data formats that 
   - [gdal_translate.exe](https://gdal.org/programs/gdal_translate.html) 
     - Converts raster data between different formats.
     - Use GDAL Translate to create a raster proxy.
+    - Jump into Notebook for example.
+    
 ## MRF
-  - Show MRF file structure
-# COG
-  - [Cloud Optimized GeoTiff](https://www.cogeo.org/)
+  - Show MRF file structure based on **LE07_L1GT_004025_19990816_20170217_01_T2_B1.mrf** in the **Week 1** folder.
+  - Show that ArcGIS Pro recognizes the file.
+# COG - [Cloud Optimized GeoTiff](https://www.cogeo.org/)
+A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted on a HTTP file server, with an internal organization that enables more efficient workflows on the cloud. It does this by leveraging the ability of clients issuing ​HTTP GET range requests to ask for just the parts of a file they need.
+
+## [MRF vs. COG](https://www.element84.com/blog/cloud-optimized-geotiff-vs-the-meta-raster-format)
+
 ## [Landsat in AWS](https://aws.amazon.com/blogs/aws/start-using-landsat-on-aws/)
   - [Landsat Path Rows](https://www.usgs.gov/land-resources/nli/landsat/landsat-shapefiles-and-kml-files)
   - Use Python to create proxies form Landsat on AWS
@@ -93,16 +99,19 @@ GDAL is a translator library for raster and vector geospatial data formats that 
   - Provider Option:
     - ARC_DEEP_CRAWL | NO
     - AWS_NO_SIGN_REQUEST | YES
-2. Create an ArcGIS Pro Project where you make a cloud stoage connection to the spacenet-dataset S3 bucket and you visuzlize a few images from one of the AOIs in the S3 bucket. Answer the following questions:
+2. Create an ArcGIS Pro Project where you make a cloud stoage connection to the [spacenet-dataset](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) S3 bucket and you visuzlize a few images from one of the AOIs in the S3 bucket. When connecting to SpaceNet, you don't need to specify the **Region**. Answer the following questions:
 - What cities are there? 
 - What is the resolution of the image that you selected? 
 - What is the Pixel Type of the image that you selected? 
 - What is the Bit Depth of the image that you selected?
-3. Create a Jupyter Notebook where you list all of the Cloud Optimized GeoTiffs (COG.TIF) Pansaharpened Multispecral (PS-MS) files for **AOI_2_Vegas**. For a selected image, can you write a script that prints out the information you gathered above?
-4. Use Optimize Rasters to take a folder of elevation data (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*), convert to MRF, and load into Azure Storage Account.
+3. Create a Jupyter Notebook where you list all of the Cloud Optimized GeoTiffs (COG.TIF) Pansaharpened Multispecral (PS-MS) files for **AOI_2_Vegas**. Note, you can do this using arcpy by setting the arcpy workspace to a folder in your *.acs* files as follows:
+```
+arcpy.env.workspace = "C:\\Users\\greg6750\\Documents\\ArcGIS\\Projects\\AWS Connections\\SpaceNetOnAWS.acs\\AOIs\\AOI_2_Vegas\\PS-RGB"
+arcpy.ListRasters()
+```
+4. For a selected **SpaceNet-Dataset** image, can you write a script that prints out the information you gathered above?
+5. Use Optimize Rasters to take a folder of elevation data (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*), convert to MRF, and load into Azure Storage Account.
 
-~~1. Use GDAL Translate to create raster procxies from a folder of DEMs (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*). Then, using ArcGIS Pro, create a mosaic dataset from those raster proxies. Build Overviews.~~
-~~3. Create a mosaic of all of the NAIP data for a single state. Feel free to use sample notebook and\or NAIP index file.~~
 
 ### What Else?
 - Processing Functions applied to imagery.
