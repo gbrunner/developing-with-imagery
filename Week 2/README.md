@@ -14,6 +14,15 @@ How did Microsoft get those NAIP MRFs into blob storage? The theme of this lectu
 
 ## Part 1 - Geting Data into the Cloud
 
+## Private Buckets
+### Azure Blob Storage
+1. Create a storage account, i.e. *jhuimagery*.
+2. Create a container, i.e. *naip*.
+3. Add rasters to container.
+4. Get *Acess Key* from **Access keys**
+5. Create **Cloud Storage Connection** file.
+![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/azure_private_connection.png)
+
 ## Optimize Rasters
 ### OptimizeRasters is a set of tools for converting raster data to optimized Tiled TIF or MRF files, moving data to cloud storage, and creating Raster Proxies. It can do a lot of the work for us!
 1. Create an MRF file from NAIP locally. 
