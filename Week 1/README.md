@@ -16,10 +16,16 @@
   - Let's clone or download the [OptimizeRasters](https://github.com/Esri/OptimizeRasters) project. We will do this for 2 reasons:
     - We want to use the version of GDAL that comes with it.
     - We will use the tool to upload rasters into S3.
-## GDAL
+## [GDAL](https://gdal.org/)
+GDAL is a translator library for raster and vector geospatial data formats that is released under an X/MIT style Open Source License by the Open Source Geospatial Foundation. As a library, it presents a single raster abstract data model and single vector abstract data model to the calling application for all supported formats. It also comes with a variety of useful command line utilities for data translation and processing.
   - [GDAL Virtual File Systems](https://gdal.org/user/virtual_file_systems.html)
-  - gdalinfo.exe - Use GDAL Info to get header info from image in the cloud
-  - gdal_translate.exe - Use GDAL Translate to create a raster proxy.
+  - [gdalinfo.exe](https://gdal.org/programs/gdalinfo.html) 
+    - Lists information about a raster dataset.
+    - Use GDAL Info to get header info from image in the cloud.
+    - ```>"C:\Users\greg6750\Documents\IPython Notebooks\developing-with-imagery\OptimizeRasters\GDAL\bin\gdalinfo.exe" /vsicurl/http://naipblobs.blob.core.windows.net/naip/data/v1/2012/states/mo/mo_1m_2012/36089/m_3608901_se_16_1_20120614.mrf```
+  - [gdal_translate.exe](https://gdal.org/programs/gdal_translate.html) 
+    - Converts raster data between different formats.
+    - Use GDAL Translate to create a raster proxy.
 ## MRF
   - Show MRF file structure
 # COG
