@@ -7,7 +7,8 @@
 - Optionally Wach Anything from [AWS Re-Invent](https://aws.amazon.com/earth/)
 - ArcGIS Pro Textbook Chapter on Imagery?
 
-# Lecture
+# Lecture 1 - Rasters in the Cloud
+
 ## Meta Rasters
   - [NASA MRF](https://github.com/nasa-gibs/mrf)
   - [Meta Raster Format](https://gdal.org/drivers/raster/marfa.html)
@@ -42,6 +43,8 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted
   - Create proxies for multiple TIFs and show that they can be composited into a Landsat type raster.
 ## [NAIP on Azure](https://azure.microsoft.com/en-us/services/open-datasets/catalog/naip/)
   - [NAIP Index file](https://naipblobs.blob.core.windows.net/naip-index/naip-index.zip)
+  
+# Lecture 2 - Cloud Storage Connections
 
 ## [ArcGIS Cloud Store Connections](https://pro.arcgis.com/en/pro-app/help/projects/connect-to-cloud-stores.htm) for Landsat on AWS and NAIP
   - Using AWS S3 Connection
@@ -82,6 +85,19 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted
 5. Create **Cloud Storage Connection** file.
 ![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/azure_private_connection.png)
 
+# Lecture 3 - Interfacing with the same imagery through GDAL and rasterio in Python
+
+### [GDAL](https://pypi.org/project/GDAL/) and Python
+1. Already installed in ArcGIS Pro's Conda environment
+
+### [rasterio](https://rasterio.readthedocs.io/en/stable/) and Python
+**Rasterio** is a Python wrapper around *GDAL* that is used specifically for working with raster (imagery) data.
+
+1. Install ```rasterio``` and ```boto3``` into **arcgispro-py3-clone** environment
+  - ```conda install boto3```
+  - ```conda install -c conda-forge rasterio```. For instructions, go to [```conda install rasterio```](https://github.com/conda-forge/rasterio-feedstock)
+~~2. **Exercise:** [Working with Raster Datasets](https://geohackweek.github.io/raster/04-workingwithrasters/)~~
+
 ### AWS S3 [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
 
 # Assignment
@@ -102,8 +118,7 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted
 arcpy.env.workspace = "C:\\Users\\greg6750\\Documents\\ArcGIS\\Projects\\AWS Connections\\SpaceNetOnAWS.acs\\AOIs\\AOI_2_Vegas\\PS-RGB"
 arcpy.ListRasters()
 ```
-4. For a selected **SpaceNet-Dataset** image, can you write a script that prints out the information you gathered above?
-5. Use Optimize Rasters to take a folder of elevation data (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*), convert to MRF, and load into Azure Storage Account.
+4. For a selected **SpaceNet-Dataset** image, can you write a script or notebook that prints out the information you gathered above? Follow the **gdal_python** or **rasterio_python** tutorials.
 
 
 ### What Else?
