@@ -12,7 +12,8 @@ How did Microsoft get those NAIP MRFs into blob storage? The theme of this lectu
 
 # Lecture - Interfacing with imagery in Azure, AWS, and Google Cloud
 
-## Part 1 - Geting Data into the Cloud
+## Part 1 - Private Storage
+*For this class, all students will need azure storage accounts.*
 
 ## Private Buckets
 ### Azure Blob Storage
@@ -23,14 +24,21 @@ How did Microsoft get those NAIP MRFs into blob storage? The theme of this lectu
 5. Create **Cloud Storage Connection** file.
 ![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/azure_private_connection.png)
 
+1. Show how to make a cloud storage connection to a private container.
+
+2. Creating a private blob storage container.
+
+
+## Part 2 - Geting Data into the Azure Storage
+
 ## Optimize Rasters
-### OptimizeRasters is a set of tools for converting raster data to optimized Tiled TIF or MRF files, moving data to cloud storage, and creating Raster Proxies. It can do a lot of the work for us!
+OptimizeRasters is a set of tools for converting raster data to optimized Tiled TIF or MRF files, moving data to cloud storage, and creating Raster Proxies. It can do a lot of the work for us!
 1. Create an MRF file from NAIP locally. 
 2. Add to ArcGIS pro
 3. Create an MRF file from NAIP in Azure storage.
 4. Add to ArcGIS Pro.
 
-## Part 1 - ArcGIS Mosaic Datasets
+## Part 3 - ArcGIS Mosaic Datasets
 1. Build a mosaic from the NAIP on Azure raster proxies.
 2. Build a mosaic and add a single AWS band collection manually.
 3. Build a second mosaic and add an entire path row over **your_aoi_here**
