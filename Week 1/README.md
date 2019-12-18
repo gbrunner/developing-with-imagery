@@ -13,6 +13,9 @@
   - [Meta Raster Format](https://gdal.org/drivers/raster/marfa.html)
 ## [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
   - We can use GDAL to work directly with raster in cloud storage, such as AWS S3 and Azure Blog storage.
+  - Let's clone or download the [OptimizeRasters](https://github.com/Esri/OptimizeRasters) project. We will do this for 2 reasons:
+    - We want to use the version of GDAL that comes with it.
+    - We will use the tool to upload rasters into S3.
 ## GDAL
   - [GDAL Virtual File Systems](https://gdal.org/user/virtual_file_systems.html)
   - gdalinfo.exe - Use GDAL Info to get header info from image in the cloud
