@@ -96,7 +96,7 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted
 1. Install ```rasterio``` and ```boto3``` into **arcgispro-py3-clone** environment
   - ```conda install boto3```
   - ```conda install -c conda-forge rasterio```. For instructions, go to [```conda install rasterio```](https://github.com/conda-forge/rasterio-feedstock)
-~~2. **Exercise:** [Working with Raster Datasets](https://geohackweek.github.io/raster/04-workingwithrasters/)~~
+2. For more information, please see: **Exercise:** [Working with Raster Datasets](https://geohackweek.github.io/raster/04-workingwithrasters/)
 
 ### AWS S3 [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
 
