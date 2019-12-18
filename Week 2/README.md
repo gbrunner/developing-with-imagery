@@ -18,6 +18,13 @@ How did Microsoft get those NAIP MRFs into blob storage? The theme of this lectu
 ## Private Buckets
 ### Azure Blob Storage
 1. Create a storage account, i.e. *jhuimagery*.
+    - Resource Group: greg's courses
+    - status: Available
+    - Location: Central US, East US 2
+    - Performance/Access tier: Standard/Hot
+    - Replication: Read-access geo-redundant storage (RA-GRS)
+    - Account kind: BlobStorage
+
 2. Create a container, i.e. *naip*.
 3. Add rasters to container.
 4. Get *Acess Key* from **Access keys**
