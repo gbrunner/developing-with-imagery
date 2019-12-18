@@ -82,13 +82,6 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted
 5. Create **Cloud Storage Connection** file.
 ![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/azure_private_connection.png)
 
-## Optimize Rasters
-### OptimizeRasters is a set of tools for converting raster data to optimized Tiled TIF or MRF files, moving data to cloud storage, and creating Raster Proxies. It can do a lot of the work for us!
-1. Create an MRF file from NAIP locally. 
-2. Add to ArcGIS pro
-3. Create an MRF file from NAIP in Azure storage.
-4. Add to ArcGIS Pro.
-
 ### AWS S3 [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
 
 # Assignment
