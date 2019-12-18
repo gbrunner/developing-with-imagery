@@ -18,18 +18,14 @@ How did Microsoft get those NAIP MRFs into blob storage? The theme of this lectu
 4. Introduc [MDCS](https://github.com/Esri/mdcs-py)
 5. Show configuration of MDCS and resulting mosaic.
 
-## Part 2 - Interfacing with the same imagery through GDAL and rasterio
+## Part 1 - Geting Data into the Cloud
 
-### [GDAL](https://pypi.org/project/GDAL/) and Python
-1. Already installed in ArcGIS Pro's Conda environment
-
-### [rasterio](https://rasterio.readthedocs.io/en/stable/) and Python
-**Rasterio** is a Python wrapper around *GDAL* that is used specifically for working with raster (imagery) data.
-
-1. Install ```rasterio``` and ```boto3``` into **arcgispro-py3-clone** environment
-  - ```conda install boto3```
-  - ```conda install -c conda-forge rasterio```. For instructions, go to [```conda install rasterio```](https://github.com/conda-forge/rasterio-feedstock)
-2. **Exercise:** [Working with Raster Datasets](https://geohackweek.github.io/raster/04-workingwithrasters/)
+## Optimize Rasters
+### OptimizeRasters is a set of tools for converting raster data to optimized Tiled TIF or MRF files, moving data to cloud storage, and creating Raster Proxies. It can do a lot of the work for us!
+1. Create an MRF file from NAIP locally. 
+2. Add to ArcGIS pro
+3. Create an MRF file from NAIP in Azure storage.
+4. Add to ArcGIS Pro.
 
 # Github Links
   - [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
