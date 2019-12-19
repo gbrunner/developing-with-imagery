@@ -25,7 +25,12 @@ How did Microsoft get those NAIP MRFs into blob storage? The theme of this lectu
     - Replication: Read-access geo-redundant storage (RA-GRS)
     - Account kind: BlobStorage
 
-2. Create a container, i.e. *naip*.
+2. Create a container
+    - Select the **+ Container** button.
+    - Give the **Container** a name.
+    - Select a private **Container**.
+3. Use Optimize Rasters to add rasters to the **Container**
+    - 
 3. Add rasters to container.
 4. Get *Acess Key* from **Access keys**
 5. Create **Cloud Storage Connection** file.
