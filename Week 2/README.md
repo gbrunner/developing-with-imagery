@@ -29,8 +29,14 @@ How did Microsoft get those NAIP MRFs into blob storage? The theme of this lectu
     - Select the **+ Container** button.
     - Give the **Container** a name.
     - Select a private **Container**.
-3. Use Optimize Rasters to add rasters to the **Container**
+3. Create a profile using the **Profile Editor** tool in **Optimize Rasters**
+    - Profile Type: Microsoft Azure
+    - Profile Name: *User Defined*
+    - Access/Account Key ID: *name of container*
+    - Secret Access Account Key: *Key 1*
+4. Use Optimize Rasters to add rasters to the **Container**
     - 
+    
 3. Add rasters to container.
 4. Get *Acess Key* from **Access keys**
 5. Create **Cloud Storage Connection** file.
