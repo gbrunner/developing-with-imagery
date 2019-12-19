@@ -29,7 +29,7 @@ Raster funciton cans can be applied to imagery layer or embeded into mosaic data
 
 2. Using Python GDAL, create a Jupyter Notebook where you write a function that computes the NDVI of a Landsat OLI dataset and takes in the right OLI Bands to compute NDVI for a selected scene. Pull the scenes directly from Landsat in AWS. Do this for the same geographic area where you applied the NDVI function in ArcGIS Pro. How do the results compare? DO they look the same? **Submit the Notebook.**
 
-3. Create a raster function that
+3. Create a raster function that orthorecifies a SpaceNet image. For the Digital Elevation Model, use...
 
 
 # Links
