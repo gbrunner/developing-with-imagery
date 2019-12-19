@@ -59,18 +59,30 @@ In this demo, I will upload some astronomy images into a blob storage container 
 ![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/azure_private_connection.png)
 
 ## Part 3 - ArcGIS Mosaic Datasets
-1. Build a mosaic from the NAIP on Azure raster proxies.
-2. Build a mosaic and add a single AWS band collection manually.
-3. Build a second mosaic and add an entire path row over **your_aoi_here**
-4. Introduc [MDCS](https://github.com/Esri/mdcs-py)
-5. Show configuration of MDCS and resulting mosaic.
+Mosaic datasets can be built from imagery stored in Azure or AWS. Landsat path row 13-32 overlaps New York City. Let;s build some Landsat 8 (OLI) mosaics from this path row.
+
+
+1. Create two mosaic datasets in the GDB in ArcGIS Pro. Call one **Master_OLI** and the other **OLI_MS_QA**
+![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/create_mosaic.png)
+
+2. Add Rastes to Master_OLI. Specify the Landsat8_OLI_allBands.art raster function template so that every OLI band gets into the mosaic.
+
+3. Add Rasters to OLI_MS_QA. This uses **Master_OLI** as the input data (table). Use the Landsat8_OLI_MS_Table_AR_QA.art raster function template. This will composite the MS and QA bands into a single raster.
+
+4. Set time parameters on OLI_MS_QA to work with time.
+
+5. Voila! Make sure to show:
+    - Mosaic dataset tables.
+    - Make sure to talk about DRA, stretch, histograms, and why we didn't build overviews.
+    - Make sure to talk about performance.
+
 
 # Exercises and Homework
 1. Create a private container in your Azure Blob Storage account named **dem**
 2. Using Optimize Rasters, convert the elevation models in *C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems* to COG or MRF and upload them into **dem**
 3. Using ArcGIS Pro, create a mosaic dataset from the rasters in **dem**. Be sure to build pyramids and overviews. Where did you store your overviews?
-4. Create a Landsat Mosaic from OLI data...
-
+4. Create an [NDVI](https://www.usgs.gov/land-resources/nli/landsat/landsat-normalized-difference-vegetation-index?qt-science_support_page_related_con=0#qt-science_support_page_related_con) mosaic from the Master_OLI mosaic. Follow the same proceedure that I used when creating the OLI_MS_QA mosaic, but use the Landsat8_OLI_NDVI_Table_AR_QA.art raster function template. Enable time. How many bands does the NDVI mosaic have. WHat do they correspond to? 
+5. Create a [Tasseled Cap](https://community.esri.com/docs/DOC-1868) mosaic from the Master_OLI mosaic. Follow the same proceedure that I used when creating the OLI_MS_QA mosaic, but use the Landsat8_OLI_MS_Table_TC_AR_QA.art raster function template. Enable time. How many bands does the tasseled cap mosaic have. WHat do they correspond to?
 
 # Github Links
   - [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
