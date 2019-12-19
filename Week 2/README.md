@@ -63,16 +63,16 @@ Mosaic datasets can be built from imagery stored in Azure or AWS. Landsat path r
 
 
 1. Create two mosaic datasets in the GDB in ArcGIS Pro. Call one **Master_OLI** and the other **OLI_MS_QA**
-![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/create_mosaic.png)
+![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/create_mosaic.png?raw=true)
 
 2. Add Rastes to **Master_OLI**. Specify the **Landsat8_OLI_allBands.art** raster function template so that every OLI band gets into the mosaic.
-![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/add_rasters_master_oli.png)
+![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/add_rasters_master_oli.png?raw=true)
 
 3. Add Rasters to **OLI_MS_QA**. This uses **Master_OLI** as the input data (table). Use the **Landsat8_OLI_MS_Table_AR_QA.art** raster function template. This will composite the MS and QA bands into a single raster.
-![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/add_rasters_oli_ms_qa.png)
+![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/add_rasters_oli_ms_qa.png?raw=true)
 
 4. Set time parameters on **OLI_MS_QA** to work with time.
-![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/set_time.png)
+![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/set_time.png?raw=true)
 
 5. Voila! Make sure to show:
     - Mosaic dataset tables.
