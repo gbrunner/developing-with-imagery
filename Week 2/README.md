@@ -106,6 +106,7 @@ C:\Python27\ArcGIS10.5\python.exe C:\Image_Mgmt_Workflows\MDCS\scripts\MDCS.py
 3. Using ArcGIS Pro, create a mosaic dataset from the rasters in **dem**. Be sure to build pyramids and overviews. Where did you store your overviews?
 4. Create an [NDVI](https://www.usgs.gov/land-resources/nli/landsat/landsat-normalized-difference-vegetation-index?qt-science_support_page_related_con=0#qt-science_support_page_related_con) mosaic from the Master_OLI mosaic. Follow the same proceedure that I used when creating the **OLI_MS_QA** mosaic, but use the **Landsat8_OLI_NDVI_Table_AR_QA.art** raster function template. Enable time. How many bands does the NDVI mosaic have. WHat do they correspond to? 
 5. Create a [Tasseled Cap](https://community.esri.com/docs/DOC-1868) mosaic from the Master_OLI mosaic. Follow the same proceedure that I used when creating the OLI_MS_QA mosaic, but use the **Landsat8_OLI_MS_Table_TC_AR_QA.art** raster function template. Enable time. How many bands does the tasseled cap mosaic have. WHat do they correspond to?
+6. **CHALLENGE!** Use MDCS to create the NDVI or tassled cap mosaic. 
 
 # Github Links
   - [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
