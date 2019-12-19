@@ -16,7 +16,10 @@ How did Microsoft get those NAIP MRFs into blob storage? The theme of this lectu
 *For this class, all students will need azure storage accounts.*
 
 ## Private Buckets
+
 ### Azure Blob Storage
+In this demo, I will create a blob storage container in my Azure storage accound, *jhuimagery*.
+
 1. Create a storage account, i.e. *jhuimagery*.
     - Resource Group: greg's courses
     - status: Available
@@ -29,32 +32,29 @@ How did Microsoft get those NAIP MRFs into blob storage? The theme of this lectu
     - Select the **+ Container** button.
     - Give the **Container** a name.
     - Select a private **Container**.
-3. Create a profile using the **Profile Editor** tool in **Optimize Rasters**
+
+## Part 2 - Geting Data into the Azure Storage using [OptimizeRasters](https://github.com/Esri/OptimizeRasters)
+OptimizeRasters is a set of tools for converting raster data to optimized Tiled TIF or MRF files, moving data to cloud storage, and creating Raster Proxies. It can do a lot of the work for us!
+
+In this demo, I will upload some astronomy images into a blob storage container and then visualize them in ArcGIS Pro and Jupyter.
+
+1. Create a profile using the **Profile Editor** tool in **Optimize Rasters**
     - Profile Type: Microsoft Azure
     - Profile Name: *User Defined*
     - Access/Account Key ID: *name of container*
     - Secret Access Account Key: *Key 1*
-4. Use Optimize Rasters to add rasters to the **Container**
-    - 
+
+2. Use Optimize Rasters to add rasters to the **Container**
+    - need to get parameters here
     
-3. Add rasters to container.
-4. Get *Acess Key* from **Access keys**
-5. Create **Cloud Storage Connection** file.
+3. View results in ArcGIS Pro
+    - Create a **Cloud Storage Connection** file to your private container.
+    - Service Provider: Azure
+    - Container Name: *User Defined*
+    - Access/Account Key ID: *name of container*
+    - Secret Access Account Key: *Key 1*
+    
 ![](https://raw.githubusercontent.com/gbrunner/developing-with-imagery/master/Week%202/azure_private_connection.png)
-
-1. Show how to make a cloud storage connection to a private container.
-
-2. Creating a private blob storage container.
-
-
-## Part 2 - Geting Data into the Azure Storage
-
-## Optimize Rasters
-OptimizeRasters is a set of tools for converting raster data to optimized Tiled TIF or MRF files, moving data to cloud storage, and creating Raster Proxies. It can do a lot of the work for us!
-1. Create an MRF file from NAIP locally. 
-2. Add to ArcGIS pro
-3. Create an MRF file from NAIP in Azure storage.
-4. Add to ArcGIS Pro.
 
 ## Part 3 - ArcGIS Mosaic Datasets
 1. Build a mosaic from the NAIP on Azure raster proxies.
@@ -64,7 +64,11 @@ OptimizeRasters is a set of tools for converting raster data to optimized Tiled 
 5. Show configuration of MDCS and resulting mosaic.
 
 # Exercises and Homework
-1. Use Optimize Rasters to take a folder of elevation data (*C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems*), convert to MRF, and load into Azure Storage Account.
+1. Create a private container in your Azure Blob Storage account named **dem**
+2. Using Optimize Rasters, convert the elevation models in *C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems* to COG or MRF and upload them into **dem**
+3. Using ArcGIS Pro, create a mosaic dataset from the rasters in **dem**. Be sure to build pyramids and overviews. Where did you store your overviews?
+4. Create a Landsat Mosaic from OLI data...
+
 
 # Github Links
   - [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
