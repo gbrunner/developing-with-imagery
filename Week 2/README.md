@@ -2,13 +2,15 @@
 How did Microsoft get those NAIP MRFs into blob storage? The theme of this lecture is working towards understanding how to create image services that use imagery in S3 by first understanding how the imagery gets into S3.
 
 # Preparation
-1. Read:
+1. Watch:
+    - [Workflows for Optimizing Imagery Management in the Cloud](https://www.esri.com/videos/watch?videoid=gQv3IHKN9j8&title=arcgis-workflows-for-optimizing-image-management-services-in-the-cloud)
+    - [Managing Imagery Using Mosaic Datasets and Image Services](https://www.youtube.com/watch?v=4UlVlN0G9qk)
+2. Recommended Reading:
     - [Managing Imagery in the Cloud](http://proceedings.esri.com/library/userconf/proc17/tech-workshops/tw_630-625.pdf)
     - [MRF](https://community.esri.com/thread/212729-mrf-s3-mosaics-caches-and-optimization)
     - [Optimize Rasters](https://github.com/Esri/OptimizeRasters)
     - [MDCS](https://github.com/Esri/mdcs-py)
-2. Watch:
-    - [Optimize Rasters](https://www.youtube.com/watch?v=NEu0BYA1jAA)
+
 
 # Lecture - Interfacing with imagery in Azure, AWS, and Google Cloud
 
