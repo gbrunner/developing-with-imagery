@@ -1,8 +1,9 @@
 # Title
 
 # Preparation
-1. Watch:
-    - [Writing Image Processing Algorithms using the Python Raster Function](https://www.esri.com/videos/watch?videoid=OgwnKRrVHN0)
+1. Watch one of the follwing:
+    - [DevSummit 2019 - Writing Python Raster Functions in ArcGIS](https://www.esri.com/videos/watch?videoid=FenT61l-xyQ&title=writing-image-processing-algorithms-using-the-python-raster-function)
+    - [DevSummit 2017 - Writing Image Processing Algorithms using the Python Raster Function](https://www.esri.com/videos/watch?videoid=OgwnKRrVHN0)
     - [UC 2018 - Writing Image Processing Algorithms using the Python Raster Function](https://www.esri.com/videos/watch?videoid=FenT61l-xyQ&title=writing-image-processing-algorithms-using-the-python-raster-function)
 
 # Lecture
