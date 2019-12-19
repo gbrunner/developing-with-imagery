@@ -44,10 +44,12 @@ In this demo, I will upload some astronomy images into a blob storage container 
     - Access/Account Key ID: *name of container*
     - Secret Access Account Key: *Key 1*
 
-2. Use Optimize Rasters to add rasters to the **Container**
-    - need to get parameters here
+2. Use Optimize Rasters to Convert to MRF
+    ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/sings_to_local.png?raw=true)
+3. Use Optimize Rasters to convert to MRF add rasters to the **Container**
+    ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/sings_to_azure.png?raw=true)
     
-3. View results in ArcGIS Pro
+4. View results in ArcGIS Pro
     - Create a **Cloud Storage Connection** file to your private container.
     - Service Provider: Azure
     - Container Name: *User Defined*
