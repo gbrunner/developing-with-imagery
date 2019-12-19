@@ -63,15 +63,19 @@ Mosaic datasets can be built from imagery stored in Azure or AWS. Landsat path r
 
 
 1. Create two mosaic datasets in the GDB in ArcGIS Pro. Call one **Master_OLI** and the other **OLI_MS_QA**
+
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/create_mosaic.png?raw=true)
 
 2. Add Rastes to **Master_OLI**. Specify the **Landsat8_OLI_allBands.art** raster function template so that every OLI band gets into the mosaic.
+
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/add_rasters_master_oli.png?raw=true)
 
 3. Add Rasters to **OLI_MS_QA**. This uses **Master_OLI** as the input data (table). Use the **Landsat8_OLI_MS_Table_AR_QA.art** raster function template. This will composite the MS and QA bands into a single raster.
+
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/add_rasters_oli_ms_qa.png?raw=true)
 
 4. Set time parameters on **OLI_MS_QA** to work with time.
+
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/set_time.png?raw=true)
 
 5. Voila! Make sure to show:
@@ -81,7 +85,20 @@ Mosaic datasets can be built from imagery stored in Azure or AWS. Landsat path r
     - Talk about mosaic rules
     - Talk about interpolation
     
+## Part 4 - [MDCS](https://github.com/Esri/mdcs-py)
+```
+ECHO Build OLI Mosaics
+```
 
+```
+ECHO Building Master_OLI Mosaic Dataset
+c:\PYTHON27\ArcGIS10.5\python.exe C:\Image_Mgmt_Workflows\MDCS\scripts\MDCS.py -
+```
+
+```
+ECHO Building LandsatArchive_OLI_MS Mosaic Dataset
+C:\Python27\ArcGIS10.5\python.exe C:\Image_Mgmt_Workflows\MDCS\scripts\MDCS.py 
+```
 
 # Exercises and Homework
 1. Create a private container in your Azure Blob Storage account named **dem**
