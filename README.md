@@ -5,7 +5,7 @@ Repo for develping materials for a class in Enterprise Imagery Management, Disse
 - [Create and Activate a free AWS account.](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/) We will use this for S3 storage and access. 
 - Course Credits: https://www.awseducate.com/educator/s/classroomsandcredits
 
-# Azure Course Credits
+# Azure
 - [Create an Azure account.](https://azure.microsoft.com/en-us/free) We will use this for Azure blob storage and access.
 
 ## Instructor Information
