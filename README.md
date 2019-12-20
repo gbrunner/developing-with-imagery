@@ -8,6 +8,11 @@ Repo for develping materials for a class in Enterprise Imagery Management, Disse
 # Azure
 - [Create an Azure account.](https://azure.microsoft.com/en-us/free) We will use this for Azure blob storage and access.
 
+# ArcGIS
+- ArcGIS Online Account:
+- ArcGIS Portal Account:
+- ArcGIS Software location
+
 ## Instructor Information
 Instructor:	Gregory Brunner  
 Email Address:	gbrunner@esri.com  
