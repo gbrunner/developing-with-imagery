@@ -10,11 +10,18 @@ This lecture will focus on the concept of raster functions
 # Lecture
 Raster funciton cans can be applied to imagery layer or embeded into mosaic dataset and image service.
 ## 1. Applying Raster Functions to elevation
+### Applying Raster Functions to the DEM from last week
 - Hillshade on DEM from homework
 
 - Slope Embeded in NED image service.
 
 - Embed Ampect into DEM from homework.
+
+### Image Service
+Demonstrate how
+1. Searh for the **Terrain** image service in Portal. The URL will be *https://elevation.arcgis.com/arcgis/services/WorldElevation/Terrain/ImageServer*
+2. Add to Map
+3. Toggle among raster functions that are embeded into the image service.
 
 ## 2. Slope and Aspect Algorithms in Python using GDAL
 
