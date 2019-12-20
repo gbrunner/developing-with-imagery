@@ -1,8 +1,12 @@
 # enterprise-imagery-management-dissemination-analysis
 Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
-# AWS Course Credits
-https://www.awseducate.com/educator/s/classroomsandcredits
+# AWS
+- [Create and Activate a free AWS account.](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/) We will use this for S3 storage and access. 
+- Course Credits: https://www.awseducate.com/educator/s/classroomsandcredits
+
+# Azure Course Credits
+- [Create an Azure account.](https://azure.microsoft.com/en-us/free) We will use this for Azure blob storage and access.
 
 ## Instructor Information
 Instructor:	Gregory Brunner  
