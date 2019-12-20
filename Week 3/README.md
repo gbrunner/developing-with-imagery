@@ -11,11 +11,16 @@ This lecture will focus on the concept of raster functions
 Raster funciton cans can be applied to imagery layer or embeded into mosaic dataset and image service.
 ## 1. Applying Raster Functions to elevation
 ### Applying Raster Functions to the DEM from last week
-- Hillshade on DEM from homework
-
-- Slope Embeded in NED image service.
-
-- Embed Ampect into DEM from homework.
+Using the DEM that we generated for homework from the imagery in Azure storage.
+1. Load the DEM into a Map.
+2. Open the Raster Functions Pane.
+3. Apply Hillshade Raster function.
+4. Workflow to embed raster funcitons in mosaic.
+5. Add raster function to custom or porject pane.
+6. Right click on mosaic dataset.
+7. Right click on manage processing templaes
+8. Select orage arrow.
+9. Add hillshade raster function.
 
 ### Image Service
 Demonstrate how
