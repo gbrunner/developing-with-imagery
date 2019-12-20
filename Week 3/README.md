@@ -19,10 +19,21 @@ Raster funciton cans can be applied to imagery layer or embeded into mosaic data
 ## 2. Slope and Aspect Algorithms in Python using GDAL
 
 ## 3. Pansharpening SpaceNet Dataset
+### Questions
 - What is pansharpening?
 - Pansharpening methods?
 - Pansharpening raster function.
 - Pansharpening a SpaceNet image over Georgia.
+
+### Pansharpening Demo
+1. Add Khartoum MS image to map
+2. Add Khartoum PAN iamge to map
+3. Extract bands on MS image using bands 5, 3, and 2.
+4. Apply Pansharpening function using Gram-Schmidt and selecting WorldView-3 sensor.
+5. Zoom in and compare output and pixel size.
+6. Show raster function chain.
+7. Save raster function chain so that it can be paramteried and reused.
+8. Export raster.
 
 # Exercise\Homework
 1. Apply the NDVI raster function to the Landsat OLI Mosaic dataset we created last week. After you apply the NDVI function, apply a colramp to the result to emphasize the contrast. **Submit the Raster Function chain (NDVI + Colorramp).**
