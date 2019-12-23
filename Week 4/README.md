@@ -6,6 +6,14 @@
     - [UC 2018 - Writing Image Processing Algorithms using the Python Raster Function](https://www.esri.com/videos/watch?videoid=FenT61l-xyQ&title=writing-image-processing-algorithms-using-the-python-raster-function)
 
 # Lecture
+For this lecture, we are going to learn how to write image processing algorithms. We will be using Python libraries such as ```numpy``` and ```pickle```, we will build on the concepts we leaned last week, and we will create analysis functions that use Python + ArcGIS. We will start by seeing how to apply a Python Raster Funciton and then we will move onto technicques for developing them using the Landsat OLI mosaics we built in Week 2.
+
+
+
+## Imports
+
+We use ```os``` and ```pickle``` to get the data. We will be working with numerical arrays with ```numpy``` and date objects with ```datetime```.
+
 ## Apply a Python Raster Function
 Take an existing PRF, create the raster function template, and apply it to a raster. Then explain the pieces of the raster function.
 1. Using a [HydroSHEDS DEM](https://hydrosheds.cr.usgs.gov/dataavail.php)
@@ -16,15 +24,13 @@ Take an existing PRF, create the raster function template, and apply it to a ras
 6. So how do we create this raster function?
 
 ## Demonstrate writing the Python Raster Function
-1. Extract pixel blocks using PRFBaseDebugTemplate.py
-2. Look at pixel blocks in a notebook.
-3. Write algorithm using pixel blocks.
-4. Put algorithm into PRF.
+Jupyter notebooks outline how to use Python and the ```pickle``` module to understand ```pixel_blocks```. I will review four scenarios. 
+1. Extracting ```pixel_blocks``` from a single image.
+2. Extracting ```pixel_blocks``` from a mosaic dataset.
+3. Extracting ```pixel_blocks``` using a raster function that takes in multiple rasters and looks for key metadata.
+4. Extracting ```pixel_blocks``` and ```KeyMetadata``` from a mosaic dataset using **Item Grouping**.
 
-## Extract pixel blocks from other datasets
-1. Landsat
-2. Thematic (precipitation)
-3. Temperature
+These scenarious will demonstrate how you can write custom analysis functions.
 
 # Homework
 1. Using the temperature data is the input raster, write a Python Raster Function that converts the raster from showing temperature in celsius to temperature in fahrenheit. The workflow I recommend is to:
