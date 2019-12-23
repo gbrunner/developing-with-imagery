@@ -31,6 +31,7 @@ Demonstrate how
 ## 2. Hillshade Algorithm and NAIP NDVI Algorithm in Python using GDAL
 1. Walk through accessing NAIP in Azure and creating an NDVI image (gdal_naip_processing.ipynb)
 2. Walk through accessing DEM and creating a hillshade (gdal_dem_processing.ipynb)
+3. This can also be done with **rasterio** (rasterio_image_processing.ipynb)
 
 ## 3. Pansharpening SpaceNet Dataset
 ### Questions
