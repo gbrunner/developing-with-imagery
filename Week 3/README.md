@@ -28,7 +28,9 @@ Demonstrate how
 2. Add to Map
 3. Toggle among raster functions that are embeded into the image service.
 
-## 2. Slope and Aspect Algorithms in Python using GDAL
+## 2. Hillshade Algorithm and NAIP NDVI Algorithm in Python using GDAL
+1. Walk through accessing NAIP in Azure and creating an NDVI image (gdal_naip_processing.ipynb)
+2. Walk through accessing DEM and creating a hillshade (gdal_dem_processing.ipynb)
 
 ## 3. Pansharpening SpaceNet Dataset
 ### Questions
@@ -52,7 +54,6 @@ Demonstrate how
 
 2. Using Python GDAL, create a Jupyter Notebook where you write a function that computes the NDVI of a Landsat OLI dataset and takes in the right OLI Bands to compute NDVI for a selected scene. Pull the scenes directly from Landsat in AWS. Do this for the same geographic area where you applied the NDVI function in ArcGIS Pro. How do the results compare? DO they look the same? **Submit the Notebook.**
 
-3. Create a raster function that orthorecifies a SpaceNet image. For the Digital Elevation Model, use...
-
+3. **Challenge** Write a python function to calculate Slope from the digital elevation model.
 
 # Links
