@@ -36,8 +36,8 @@ Demonstrate Landsat OLI pixel percentil raster function.
 2. Create a raster function from the [NVDI python raster function](https://github.com/Esri/raster-functions/blob/master/functions/NDVI.py) and apply it to the Landsat OLI MS QA mosaic that you have created. How does it look?
 
 3. Using the temperature data is the input raster, write a Python Raster Function that converts the raster from showing temperature in celsius to temperature in fahrenheit. The workflow I recommend is to:
-- Use the PRFBasicDebugTemplate.py to extract a pixel block
-- Write a python function that converts the values in that pixel block tofarenheit
-- Move that logic into a Python Raster Function.
+    - Use the PRFBasicDebugTemplate.py to extract a pixel block
+    - Write a python function that converts the values in that pixel block tofarenheit
+    - Move that logic into a Python Raster Function.
 
 4. Building on that raster function, add the option to convert to temperature in [Kelvin](https://www.rapidtables.com/convert/temperature/how-celsius-to-kelvin.html)
