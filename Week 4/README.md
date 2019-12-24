@@ -31,7 +31,7 @@ Demonstrate Landsat OLI pixel percentil raster function.
 
 # Homework
 
-1.Create a Python raster function that calculates the hillshade of a single DEM raster or a DEM mosaic. Use the [HydroSHEDS DEM](https://hydrosheds.cr.usgs.gov/dataavail.php) data from last week and the **hillshade** function from the Jupyter notebook. Note that there is another [Hillshade Python Raster Function](https://github.com/Esri/raster-functions/blob/master/functions/Hillshade.py). I don't want you to use this one, i want you to try to write a Python raster function using the code snippet from last week. How does it look? Run the ArcGIS Hillshade function. How do they compare?
+1. Create a Python raster function that calculates the hillshade of a single DEM raster or a DEM mosaic. Use the [HydroSHEDS DEM](https://hydrosheds.cr.usgs.gov/dataavail.php) data from last week and the **hillshade** function from the Jupyter notebook. Note that there is another [Hillshade Python Raster Function](https://github.com/Esri/raster-functions/blob/master/functions/Hillshade.py). I don't want you to use this one, i want you to try to write a Python raster function using the code snippet from last week. How does it look? Run the ArcGIS Hillshade function. How do they compare?
 
 2. Create a raster function from the [NVDI python raster function](https://github.com/Esri/raster-functions/blob/master/functions/NDVI.py) and apply it to the Landsat OLI MS QA mosaic that you have created. How does it look?
 
