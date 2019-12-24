@@ -1,4 +1,4 @@
-# Title
+# Writing Custom Image Processing Algorithms
 
 # Preparation
 1. Watch one of the follwing:
