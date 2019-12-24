@@ -4,7 +4,7 @@ import datetime
 import os
 import pickle
 
-debug_logs_directory = r'C:\PROJECTS\SFA\debug'
+debug_logs_directory = r'C:\Users\greg6750\Documents\IPython Notebooks\developing-with-imagery\Week 4\debug'
 
 class PRFAdvancedDebugTemplate:
 
@@ -44,7 +44,7 @@ class PRFAdvancedDebugTemplate:
 
     def updatePixels(self, tlc, shape, props, **pixelBlocks):
 
-        fname = 'updatePixels_{:%Y_%b_%d_%H_%M_%S}.txt'.format(datetime.datetime.now())
+        fname = 'Advanced_{:%Y_%b_%d_%H_%M_%S}.txt'.format(datetime.datetime.now())
         filename = os.path.join(debug_logs_directory, fname)
         pickle_filename = os.path.join(debug_logs_directory, fname)
 

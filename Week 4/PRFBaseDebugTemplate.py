@@ -4,7 +4,7 @@ import datetime
 import os
 import pickle
 
-debug_logs_directory = r'C:\PROJECTS\SFA\debug'
+debug_logs_directory = r'C:\Users\greg6750\Documents\IPython Notebooks\developing-with-imagery\Week 4\debug'
 
 class PRFBaseDebugTemplate:
 
@@ -28,6 +28,7 @@ class PRFBaseDebugTemplate:
     def getConfiguration(self, **scalars):
         return {
             'inheritProperties': 1 | 2 | 4 | 8,
+            'inputMask': True
         }
 
     def updateRasterInfo(self, **kwargs):
@@ -47,14 +48,18 @@ class PRFBaseDebugTemplate:
         #file.write("in init.\n")
 
         pix_blocks = pixelBlocks['raster_pixels']
+        mask = pixelBlocks['raster_mask']
+
         pix_array = np.asarray(pix_blocks)
 
+        pickle.dump(props, open(pickle_filename[:-4] + 'props.p', "wb"))
         pickle.dump(pix_blocks, open(pickle_filename[:-4] + 'pix_blocks.p', "wb"))
+        pickle.dump(mask, open(pickle_filename[:-4] + 'mask.p', "wb"))
 
         pix_array_dim = pix_array.shape
-        mask = np.ones(pix_array_dim)
+        output = np.ones(pix_array_dim)
 
-        pixelBlocks['output_pixels'] = mask.astype(props['pixelType'], copy=False)
+        pixelBlocks['output_pixels'] = output.astype(props['pixelType'], copy=False)
 
         #file.write("DONE.")
         #file.close()
