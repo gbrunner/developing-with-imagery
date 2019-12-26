@@ -1,4 +1,5 @@
 # Writing Custom Image Processing Algorithms
+In the previous lectures, we learned how to write image analysis functions using Python and numpy and we also learned how to apply out-of-the-box raster functions from Esri using ArcGIS Pro. But what if we have a custom algorithm that we want to implement with Python within ArcGIS? To achieve that, we can write a customer [Python Raster Function](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/python-raster-function.htm). This lecture will give insight into how to do that.
 
 # Preparation
 1. Watch one of the follwing:
@@ -44,3 +45,7 @@ Demonstrate Landsat OLI pixel percentil raster function.
     - Move that logic into a Python Raster Function.
 
 4. Building on that raster function, add the option to convert to temperature in [Kelvin](https://www.rapidtables.com/convert/temperature/how-celsius-to-kelvin.html)
+
+
+# Links
+- [Landsat Bands](https://www.usgs.gov/faqs/what-are-band-designations-landsat-satellites?qt-news_science_products=0#qt-news_science_products)
