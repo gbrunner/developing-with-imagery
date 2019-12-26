@@ -102,6 +102,17 @@ ECHO Building LandsatArchive_OLI_MS Mosaic Dataset
 C:\Python27\ArcGIS10.5\python.exe C:\Image_Mgmt_Workflows\MDCS\scripts\MDCS.py 
 ```
 
+## Supplemental - Rasterio with private buckts and request pays buckets
+Create an AWS Session and if necessary, specify the requester pays option.
+```
+import rasterio
+import boto3
+
+ with rasterio.Env(rasterio.session.AWSSession(boto3.Session(), requester_pays=True)) as env:
+  with rasterio.open('s3://sentinel-s2-l2a/tiles/14/S/PB/2019/12/23/0/R10m/B04.jp2') as src:
+    print(src.profile)
+```
+
 # Exercises and Homework
 1. Create a private container in your Azure Blob Storage account named **dem**
 2. Using Optimize Rasters, convert the elevation models in *C:\Users\greg6750\Documents\IPython Notebooks\intro-prog-for-gis-rs\Week 4\data\data\dems* to COG or MRF and upload them into **dem**
