@@ -26,6 +26,9 @@ Jupyter notebooks outline how to use Python and the ```pickle``` module to under
 
 These scenarious will demonstrate how you can write custom analysis functions.
 
+1. A Band ratio runction that works on a multiband raster or mosaic (BandRatio.py)
+2. A pixel percentile calculation that finds the median pixel value from a stack of rasters over time (LandsatPixelPercentile.py)
+
 ## Conclusion
 Demonstrate Landsat OLI pixel percentil raster function.
 
