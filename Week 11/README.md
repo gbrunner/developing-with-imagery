@@ -36,12 +36,15 @@ Add one of these image services to the map. Show that you can work in image spac
 
 # Lecture 2 - Image Coordinate Space in Excalibur
 ## Segue from Image Service into Excalibur
+Will Excalibur be in ArcGIS Online? Is it just Portal?
 
 # Lecture 3 - Image Coordinate Space in Python
 ## Show how this is treated in Python and the ArcGIS API for Python
 
 # Excercise and Homework
-1. Excercise from: https://pro.arcgis.com/en/pro-app/help/analysis/image-analyst/using-image-space-analysis-to-work-with-oblique-imagery.htm
-2. 
+1. Complete the following exercise: [Use image space analysis to work with oblique imagery](https://pro.arcgis.com/en/pro-app/help/analysis/image-analyst/using-image-space-analysis-to-work-with-oblique-imagery.htm)
+2. Using the Atlanta, Vegas, or Paris imagery, find and measure the heights of several of the tallest building in the respective cities.
+3. **If we have Excalibur** Create a Mosaic Dataset from the Atlanta, Vegas, or Paris imagery. The mosaics should contain at least 2 images. Be sure to select the right **raster type** and **processing template**. Publish the mosaic dataset to your image server. Create an **Excalibur Project** to consume the image service.
+4. **Challenge** 
 
 
