@@ -32,6 +32,7 @@ Built mosaic using **Wolrd-View 2** raster type using **Panchromatic** processin
 Image Services
 - https://imageserver.imagery.esri.com/arcgis/rest/services/Maxar/SanFrancisco_WV3_PS_DEM/ImageServer
 - https://imageserver.imagery.esri.com/arcgis/rest/services/Applanix/West_Coast_Oblique_10mDEM_Applanix/ImageServer
+
 Add one of these image services to the map. Show that you can work in image space similar to how you did with  a mosaic dataset.
 
 # Lecture 2 - Image Coordinate Space in Excalibur
@@ -39,12 +40,16 @@ Add one of these image services to the map. Show that you can work in image spac
 Will Excalibur be in ArcGIS Online? Is it just Portal?
 
 # Lecture 3 - Image Coordinate Space in Python
-## Show how this is treated in Python and the ArcGIS API for Python
+Image space and the ICS re exposed through the service REST endpoints. For insight into what this looks like, let's take a look at the rest endpoints and let's see what those look like through the ArcGIS API for Python.
+
+We can also use Python to render the images in these different coordinate spaces. 
+- WV3_ImageSpace_in_Jupyter.ipynb
+- Applanix_ImageSpace_in_Jupyter.ipynb
 
 # Excercise and Homework
 1. Complete the following exercise: [Use image space analysis to work with oblique imagery](https://pro.arcgis.com/en/pro-app/help/analysis/image-analyst/using-image-space-analysis-to-work-with-oblique-imagery.htm)
 2. Using the Atlanta, Vegas, or Paris imagery, find and measure the heights of several of the tallest building in the respective cities.
 3. **If we have Excalibur** Create a Mosaic Dataset from the Atlanta, Vegas, or Paris imagery. The mosaics should contain at least 2 images. Be sure to select the right **raster type** and **processing template**. Publish the mosaic dataset to your image server. Create an **Excalibur Project** to consume the image service.
-4. **Challenge** 
+4. **Challenge** Write a Python function that converts a point from geographic space and converts it to ICS. Show that you can use Python and plot that point on top of the same image in ICS and GCS.
 
 
