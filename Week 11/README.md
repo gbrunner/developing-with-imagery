@@ -4,6 +4,7 @@ When a sensor collects a picture and forms an image, it captures the scene in pe
 # Preparation
 - [Visualizing and Editing Data in Image Coordinate Space](https://www.esri.com/videos/watch?videoid=kObjN4KOYqQ&title=visualizing-and-editing-data-in-image-coordinate-space)
 - [ArcGIS Excalibur: Experience the Value and Power of Imagery through the WebGIS Pattern](https://www.esri.com/videos/watch?videoid=wtAFXG-sG7g&title=arcgis-excalibur-experience-the-value-and-power-of-imagery-through-the-webgis-pattern)
+- [Rational polynomial coefficient](https://en.wikipedia.org/wiki/Rational_polynomial_coefficient)
 
 # Lecture 1 - Image Coordinate Space in ArcGIS Pro
 Review geographic coordinates space,projected coordinate space, and image coordinate space (ICS_Background.pptx).
