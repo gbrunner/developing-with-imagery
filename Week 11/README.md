@@ -1,6 +1,10 @@
 # [Image Coordinate Space](https://pro.arcgis.com/en/pro-app/help/analysis/image-analyst/what-is-image-space-analysis-.htm)
 When a sensor collects a picture and forms an image, it captures the scene in perspective geometry. As a result, the image has its own unique mapping of the 3D world into that specific 2D image. For remotely sensed images, this geometry is described in a sensor model that accompanies the image in the metadata. The perspective mode of the map view display provides the capability to display oblique imagery in an image coordinate system, called image space, rather than a map coordinate system to enable more intuitive image interpretation. In this lecture, we will learn about image coordinate space. We will learn how to change from viewing in map space to image coordinate space in ArcGIS Pro and Excalibur, we will understand how to measure features in image coordinate space, and we will go behind the scenes to understand how ArcGIS renders an image in image coordinate space by using the ArcGIS API for Python.
 
+# Preparation
+- [Visualizing and Editing Data in Image Coordinate Space](https://www.esri.com/videos/watch?videoid=kObjN4KOYqQ&title=visualizing-and-editing-data-in-image-coordinate-space)
+- [ArcGIS Excalibur: Experience the Value and Power of Imagery through the WebGIS Pattern](https://www.esri.com/videos/watch?videoid=wtAFXG-sG7g&title=arcgis-excalibur-experience-the-value-and-power-of-imagery-through-the-webgis-pattern)
+
 # Lecture 1 - Image Coordinate Space in ArcGIS Pro
 Review geographic coordinates space,projected coordinate space, and image coordinate space (ICS_Background.pptx).
 
