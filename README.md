@@ -47,8 +47,8 @@ None
 | 8    | Image Server - Image Services and Raster Analytics |
 | 9   | Using Imagery with the ArcGIS API for Javascript and REST API |
 | 10   | Using Imagery with the ArcGIS API for Python |
-| 11   | Image Space in ArcGIS Pro and Excalibur |
-| 12   | Drone Imagery in ArcGIS - Drone2Map and FMV in Pro |
+| 11   | Image Coordinate Space in ArcGIS Pro, Excalibur, and Python |
+| 12   | Hand Held Imagery and Motion Video in ArcGIS Pro and on the Web |
 | ~~3~~  | ~~Raster Processing with Python\Numpy (more traditional method)~~ |
 | ~~5~~   | ~~Rasters in S3 - Optimize Rasters~~|
 | ~~6~~    | ~~Using Imagery in ArcGIS Online~~ (Rolled into Week 3)|
