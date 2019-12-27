@@ -41,11 +41,11 @@ None
 | 2    | "What's Old is New" - Mosaic Datasets from Imagery in Cloud Storage (S3 and Azure) |
 | 3    | ["Raster Function, What's Your Function?"](https://www.youtube.com/watch?v=RPoBE-E8VOc) - Raster Functions vs. Geoprocessing |
 | 4    | Python Raster Functions (Paradigm for analysis at scale) |
-| 5    | Image Server Deployment |
-| 6    | Image Server - Image Services |
-| 7    | Image Server - Raster Analytics |
-| 8    | Advanced Imagery Analytics - Algorithms (Scientific Analysis, Machine Learning, Deep Learning) |
-| 9    | Using Imagery with the ArcGIS API for Javascript and REST API |
+| 5    | Multidimmensional Data and Scientific Data |
+| 6    | Advanced Imagery Analytics - Machine Learning and Deep Learning |
+| 7    | Image Server Deployment |
+| 8    | Image Server - Image Services and Raster Analytics |
+| 9   | Using Imagery with the ArcGIS API for Javascript and REST API |
 | 10   | Using Imagery with the ArcGIS API for Python |
 | 11   | Image Space in ArcGIS Pro and Excalibur |
 | 12   | Drone Imagery in ArcGIS - Drone2Map and FMV in Pro |
