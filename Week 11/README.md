@@ -17,6 +17,16 @@ Review geographic coordinates space,projected coordinate space, and image coordi
 
 
 ## Using a Mosaic Dataset
+Built mosaic using **Wolrd-View 2** raster type using **Panchromatic** processing template.Notice that the mosaic dataset doesn't get added to the **Focusable Images**.
+1. Add mosaic to map.
+2. Right click on mosaic dataset.
+3. Got to **Selection->Explore Raster Items**
+4. **Zoom To** item.
+5. Look at the raster functions.
+6. Go to **Select** tab.
+7. **Add Item** to current map
+8. Notice that the tool adds the selcted item to the **Focusable Images**
+9. You can now treat this like an individual raster in image space.
 
 ## Using an Image Service
 
