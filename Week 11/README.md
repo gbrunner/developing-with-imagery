@@ -2,7 +2,19 @@
 When a sensor collects a picture and forms an image, it captures the scene in perspective geometry. As a result, the image has its own unique mapping of the 3D world into that specific 2D image. For remotely sensed images, this geometry is described in a sensor model that accompanies the image in the metadata. The perspective mode of the map view display provides the capability to display oblique imagery in an image coordinate system, called image space, rather than a map coordinate system to enable more intuitive image interpretation. In this lecture, we will learn about image coordinate space. We will learn how to change from viewing in map space to image coordinate space in ArcGIS Pro and Excalibur, we will understand how to measure features in image coordinate space, and we will go behind the scenes to understand how ArcGIS renders an image in image coordinate space by using the ArcGIS API for Python.
 
 # Lecture 1 - Image Coordinate Space in ArcGIS Pro
+Review geographic coordinates space,projected coordinate space, and image coordinate space (ICS_Background.pptx).
+
 ## Using Individual Rasters
+1. Make a folder connection to Georgia image folder.
+2. Add a **PAN.IMD** image to a new map.
+3. Select **Llist by Perspective Imagery**
+4. Set single image as **Focus Image**
+  - See the metadata dropdown on the map?
+  - Notice how the map get reoriented?
+5. Show that you can **Rotate** it to **Up** or **North** on the **Appearance** ribbon.
+6. Show **Mensuration**capabilities on **Imagery** tab.
+7. Show and compare results from **Base to Top Height** and **Base to Top Shadow Height**. 
+
 
 ## Using a Mosaic Dataset
 
