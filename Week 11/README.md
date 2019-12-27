@@ -35,7 +35,7 @@ Image Services
 Add one of these image services to the map. Show that you can work in image space similar to how you did with  a mosaic dataset.
 
 # Lecture 2 - Image Coordinate Space in Excalibur
-## Seguay from Image Service into Excalibur
+## Segue from Image Service into Excalibur
 
 # Lecture 3 - Image Coordinate Space in Python
 ## Show how this is treated in Python and the ArcGIS API for Python
