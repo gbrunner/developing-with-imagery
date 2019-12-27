@@ -29,6 +29,10 @@ Built mosaic using **Wolrd-View 2** raster type using **Panchromatic** processin
 9. You can now treat this like an individual raster in image space.
 
 ## Using an Image Service
+Image Services
+- https://imageserver.imagery.esri.com/arcgis/rest/services/Maxar/SanFrancisco_WV3_PS_DEM/ImageServer
+- https://imageserver.imagery.esri.com/arcgis/rest/services/Applanix/West_Coast_Oblique_10mDEM_Applanix/ImageServer
+Add one of these image services to the map. Show that you can work in image space similar to how you did with  a mosaic dataset.
 
 # Lecture 2 - Image Coordinate Space in Excalibur
 ## Seguay from Image Service into Excalibur
@@ -40,6 +44,4 @@ Built mosaic using **Wolrd-View 2** raster type using **Panchromatic** processin
 1. Excercise from: https://pro.arcgis.com/en/pro-app/help/analysis/image-analyst/using-image-space-analysis-to-work-with-oblique-imagery.htm
 2. 
 
-Image Services
-- https://imageserver.imagery.esri.com/arcgis/rest/services/Maxar/SanFrancisco_WV3_PS_DEM/ImageServer
-- https://imageserver.imagery.esri.com/arcgis/rest/services/Applanix/West_Coast_Oblique_10mDEM_Applanix/ImageServer
+
