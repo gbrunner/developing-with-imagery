@@ -53,6 +53,7 @@ Please somplete the following ArcGIS tutorials on Orineted Imagery and FMV:
   
 You can do that by appending the ?oic=**oic_item_id** to either the 2D app or 3D app urls.
 **Share that link with me.**
+
 3. FMV assignment, use the data that is the output of the multiplexer tutorial if I dont' ahev my own: http://ps-dbs.maps.arcgis.com/home/item.html?id=6991aa3f29d64b838fb0e38b5cdb89ad
 
   
