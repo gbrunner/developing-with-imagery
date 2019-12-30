@@ -29,10 +29,16 @@ I have already downloaded and installed them.
 13. Show OIC in the WebApp.
 
 # Lecture 2 - Full Motion Video
-Demo the sample video if I don't have my own.
+## Drone Video
 
 
 
+## Hand Held (iPhone) Video
+The Full Motion Video capabiliites don't support every sensor, however, you can create a video that is complant with the FMV capabilities by using a processes called [**Multiplexing**](https://pro.arcgis.com/en/pro-app/tool-reference/image-analyst/video-multiplexer.htm). This is the process of combining the two files containing the video and metadata files. This can be done if the metadata is encoded in the video file by a synchronized time stamp. I am not going to go through this process here, but Esri has a [**Multiplexing Sample**](https://ps-dbs.maps.arcgis.com/home/item.html?id=6991aa3f29d64b838fb0e38b5cdb89ad) if you are interested.
+
+I have used the [Multiplexer GP tool]() to combine image locations with the video that I have taken from an iPhone.  
+
+When I add this to the map, you notice that the tracks follows the location. You will also notice that it doesn't have camera orientation info. I have not included that info in the nultiplexing process.
 
 
 # Exercise(s)
@@ -52,16 +58,11 @@ Please somplete the following ArcGIS tutorials on Orineted Imagery and FMV:
   - 3D App - 
   
 You can do that by appending the ?oic=**oic_item_id** to either the 2D app or 3D app urls.
-**Share that link with me.**
-
-3. FMV assignment, use the data that is the output of the multiplexer tutorial if I dont' ahev my own: http://ps-dbs.maps.arcgis.com/home/item.html?id=6991aa3f29d64b838fb0e38b5cdb89ad
-
-  
+**Share that link with me.**  
   
 # What's Next:
 - [Processing Drone Imagery Using Python - Esri Dev Summit 2019](https://www.esri.com/videos/watch?videoid=WZZG4qIj5jQ&title=Processing%20Drone%20Imagery%20using%20the%20ArcGIS%20API%20for%20Python)
 - [Python Raster Types]()
-
 
 # ArcGIS Drone2Map
 ## Videos
