@@ -35,6 +35,7 @@ Please somplete the following ArcGIS tutorials on Orineted Imagery and FMV:
 2. Take the feature service that you create in **Part 1**, and use that feature service in one of the following apps:
   - 2D App - 
   - 3D App - 
+  
 You can do that by appending the ?oic=**oic_item_id** to either the 2D app or 3D app urls.
 **Share that link with me.**
 3. FMV assignment
