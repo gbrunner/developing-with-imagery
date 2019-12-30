@@ -20,12 +20,12 @@ I have already downloaded and installed them.
 ![]()
 7. Edit properties of OIC usng **Properties** GP tool. Change **MaxDistance** to **100**.
 ![]()
-
-
-1. Upload some images into Azure (or S3) public storage using optimize rasters.
-2. Create Oriented Imagery Catalog with ArcGIS Pro
-3. Share oriented imagery catalog to ArcGIS Online using ArcGIS Pro. Notice that in ArcGIS Online, the **OIC** is its own item type.
-4. Look at catalog in Pro using the Orineted Imagery Viewer
+8. **Create Coverage Features**
+![]()
+9. **Create Coverage Map**
+10 **Analyze OIC**
+10. Share oriented imagery catalog to ArcGIS Online using ArcGIS Pro. Notice that in ArcGIS Online, the **OIC** is its own item type.
+11. Look at catalog in Pro using the Orineted Imagery Viewer
 
 # Lecture 2 - Full Motion Video
 Demo the sample video if I don't have my own.
