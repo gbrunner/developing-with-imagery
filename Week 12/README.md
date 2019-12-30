@@ -16,18 +16,25 @@ I have already downloaded and installed them.
 4. Add the **ManageOrientedImagery.pyt** to your Pro Project.
 5. Create an **Oriented Imagery Catalog**
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%2012/CreateOIC.png?raw=true)
+
 6. Add Images to OIC
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%2012/AddImagesToOIC.png?raw=true)
+
 7. Edit properties of OIC usng **Properties** GP tool. Change **MaxDistance** to **100**.
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%2012/Properties.png?raw=true)
+
 8. **Create Coverage Features**
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%2012/CreateCoverageFeatures.png?raw=true)
+
 9. **Create Coverage Map**
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%2012/CreateCoverageMap.png?raw=true)
+
 10. **Analyze OIC**
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%2012/AnalyzeOIC.png?raw=true)
+
 11. Share oriented imagery catalog to ArcGIS Online using ArcGIS Pro using **Publish OIC** GP Tool. Show that in ArcGIS Online, the **OIC** is its own item type.
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%2012/PublishOIC.png?raw=true)
+
 12. Look at catalog in Pro using the Orineted Imagery Viewer
 13. Show OIC in the WebApp.
 
