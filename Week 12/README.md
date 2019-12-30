@@ -2,22 +2,28 @@
 I this lecture, we will discuss and demonstrate different ways to use hand held imagery and motion video. Hand held imagery can be exploited in ArcGIS Pro and through WebApps. We will develop workflows to take imagery from hand held cameras and phones, share them to Azure sotrage or AWS S3 storage, and use the imagery in ArcGIS. We will also explore different ways to utilize full-motion video in ArcGIS Pro.
 
 # Preparation
-- [Full Motion Video in Pro 2.2](https://www.esri.com/videos/watch?videoid=rGFZT9yWzRM&title=full-motion-video-in-arcgis-pro-2-2)
+- Watch [Full Motion Video in Pro 2.2](https://www.esri.com/videos/watch?videoid=rGFZT9yWzRM&title=full-motion-video-in-arcgis-pro-2-2)
+- Do the [Creating an Oriented Imagery Catalog in ArcGIS](https://doc.arcgis.com/en/imagery/workflows/tutorials/creating-an-oriented-imagery-catalog.htm) tutorial.
 
-# Lecture
+# Lecture 1 - Oriented Imagery
 Using the full-motion video tools requires an **Image Analyst** license. Creating oriented imagery services and apps requires the oriented imagery add-in and oriented imagery Geoprocessing tools. Let's start bu downloadind and installing the oriented imagery add-in and oriented imagery GP tools:
   - [The Oriented Imagery Add in for ArcGIS Pro](https://www.arcgis.com/home/item.html?id=19b5028e59c141239d0a262117639f81)
   - [Oriented Imagery Management Tools for ArcGIS Pro](https://www.arcgis.com/home/item.html?id=36ee0bbedca64a5a8b68d7c69ab51728)
 I have already downloaded and installed them.
 
+1. Upload some images into Azure (or S3) public storage using optimize rasters.
+2. Create Oriented Imagery Catalog with ArcGIS Pro
+3. Share oriented imagery catalog to ArcGIS Online using ArcGIS Pro. Notice that in ArcGIS Online, the **OIC** is its own item type.
+4. Look at catalog in Pro using the Orineted Imagery Viewer
 
+# Lecture 2 - Full Motion Video
 
 
 
 # Exercise(s)
 Please somplete the following ArcGIS tutorials on Orineted Imagery and FMV:
-  1. [Creating an Oriented Imagery Catalog in ArcGIS](https://doc.arcgis.com/en/imagery/workflows/tutorials/creating-an-oriented-imagery-catalog.htm).
-  2. Go through the [FMV player tutorial.](https://doc.arcgis.com/en/imagery/workflows/tutorials/fmv-video-player-tutorial.htm)
+  1. If you have not yet done the [Creating an Oriented Imagery Catalog in ArcGIS](https://doc.arcgis.com/en/imagery/workflows/tutorials/creating-an-oriented-imagery-catalog.htm) tutorial, please complete this.
+  2. Complete the [FMV player tutorial.](https://doc.arcgis.com/en/imagery/workflows/tutorials/fmv-video-player-tutorial.htm)
 
 # Homework
 1. Using your iPhone, Android, or another camera that creates geotagged photots, create an orineted imagery service from some photos that you take. The photos can be of a park, a parking lot, your neighborhood; whatever you would like. You should:
@@ -31,15 +37,9 @@ Please somplete the following ArcGIS tutorials on Orineted Imagery and FMV:
   - 3D App - 
 You can do that by appending the ?oic=**oic_item_id** to either the 2D app or 3D app urls.
 **Share that link with me.**
-3. 
+3. FMV assignment
 
   
-  
-# Orineted Imagery in ArcGIS Pro
-## What we need
-
-
- 
   
 # What's Next:
 - [Processing Drone Imagery Using Python - Esri Dev Summit 2019](https://www.esri.com/videos/watch?videoid=WZZG4qIj5jQ&title=Processing%20Drone%20Imagery%20using%20the%20ArcGIS%20API%20for%20Python)
