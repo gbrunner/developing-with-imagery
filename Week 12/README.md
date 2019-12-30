@@ -1,36 +1,53 @@
-# Full Motion Video in ArcGIS Pro
-## Videos
+# Hand Held Imagery and Motion Video
+I this lecture, we will discuss and demonstrate different ways to use hand held imagery and motion video. Hand held imagery can be exploited in ArcGIS Pro and through WebApps. We will develop workflows to take imagery from hand held cameras and phones, share them to Azure sotrage or AWS S3 storage, and use the imagery in ArcGIS. We will also explore different ways to utilize full-motion video in ArcGIS Pro.
+
+# Preparation
 - [Full Motion Video in Pro 2.2](https://www.esri.com/videos/watch?videoid=rGFZT9yWzRM&title=full-motion-video-in-arcgis-pro-2-2)
+
 ## Lecture
-I will demonstrate using video from a drone for my lecture
+Using the full-motion video tools requires an **Image Analyst** license. Creating oriented imagery services and apps requires the oriented imagery add-in and oriented imagery Geoprocessing tools. Let's start bu downloadind and installing the oriented imagery add-in and oriented imagery GP tools:
+  - 
+  - 
 
-## Exercise
-Go through the [FMV player tutorial.](https://doc.arcgis.com/en/imagery/workflows/tutorials/fmv-video-player-tutorial.htm)
 
-# ArcGIS Drone2Map
-## Videos
-- [UC 2016](https://www.esri.com/videos/watch?videoid=63qAQJZGab8)
-- [UC 2017](https://www.youtube.com/watch?v=T1qGsSTA_N0)
+
+
+
 ## Lecture
 
-## Exercise
-[Getting started with Drone2Map](https://learn.arcgis.com/en/projects/get-started-with-drone2map-for-arcgis/)
+# Exercise(s)
+Please somplete the following ArcGIS tutorials on Orineted Imagery and FMV:
+  1. [Creating an Oriented Imagery Catalog in ArcGIS](https://doc.arcgis.com/en/imagery/workflows/tutorials/creating-an-oriented-imagery-catalog.htm)
+  2. Go through the [FMV player tutorial.](https://doc.arcgis.com/en/imagery/workflows/tutorials/fmv-video-player-tutorial.htm)
 
+# Homework
+1. Using your iPhone, Android, or another camera that creates geotagged photots, create an orineted imagery service from some photos that you take. The photos can be of a park, a parking lot, your neighborhood; whatever you would like. You should:
+  - Take the photos.
+  - Upload the photos to public Azure storage or a public AWS S3 bucket.
+  - Create a feature class the points to the photos in your cloud storage.
+  - Share that feature class as a feature service.
+**Please share the feature service with me.**
+2. Take the feature service that you create in **Part 1**, and use that feature service in one of the following apps:
+  - 2D App - https://oi.geocloud.com/app/index.html
+  - 3D App - https://oi.geocloud.com/app3D/index.html
+You can do that by appending the ?oic=**oic_item_id** to either the 2D app or 3D app urls.
+**Share that link with me.**
+
+  
+  
 # Orineted Imagery in ArcGIS Pro
 ## What we need
   1. [The Oriented Imagery Add in for ArcGIS Pro](https://www.arcgis.com/home/item.html?id=19b5028e59c141239d0a262117639f81)
   2. [Oriented Imagery Tools](https://www.arcgis.com/home/item.html?id=36ee0bbedca64a5a8b68d7c69ab51728)
 
-## Lecture
-Show Oriented Imagery Catalog
-  
-## Exercise
-[Creating an Oriented Imagery Catalog in ArcGIS](https://doc.arcgis.com/en/imagery/workflows/tutorials/creating-an-oriented-imagery-catalog.htm)
-  
-# Assignment
-Students can choose to either: 
-1. Create a map (APRX or Webmap) form imagery collected with a handheld device, or
-2. Create a map (APRX or Webmap) from a drone. If Drone2Map is used, please publish your results as web services and share a webmap with me.
+ 
   
 # What's Next:
 - [Processing Drone Imagery Using Python - Esri Dev Summit 2019](https://www.esri.com/videos/watch?videoid=WZZG4qIj5jQ&title=Processing%20Drone%20Imagery%20using%20the%20ArcGIS%20API%20for%20Python)
+- [Python Raster Types]()
+
+
+# ArcGIS Drone2Map
+## Videos
+- [UC 2016](https://www.esri.com/videos/watch?videoid=63qAQJZGab8)
+- [UC 2017](https://www.youtube.com/watch?v=T1qGsSTA_N0)
