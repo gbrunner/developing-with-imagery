@@ -18,7 +18,7 @@ I have already downloaded and installed them.
 ![]()
 6. Add Images to OIC
 ![]()
-7. Edit properties of OIC usng **Properties** GP tool.
+7. Edit properties of OIC usng **Properties** GP tool. Change **MaxDistance** to **100**.
 ![]()
 
 
