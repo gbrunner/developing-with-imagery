@@ -18,7 +18,8 @@ I have already downloaded and installed them.
 ![]()
 6. Add Images to OIC
 ![]()
-7. 
+7. Edit properties of OIC usng **Properties** GP tool.
+![]()
 
 
 1. Upload some images into Azure (or S3) public storage using optimize rasters.
