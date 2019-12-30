@@ -4,20 +4,19 @@ I this lecture, we will discuss and demonstrate different ways to use hand held 
 # Preparation
 - [Full Motion Video in Pro 2.2](https://www.esri.com/videos/watch?videoid=rGFZT9yWzRM&title=full-motion-video-in-arcgis-pro-2-2)
 
-## Lecture
+# Lecture
 Using the full-motion video tools requires an **Image Analyst** license. Creating oriented imagery services and apps requires the oriented imagery add-in and oriented imagery Geoprocessing tools. Let's start bu downloadind and installing the oriented imagery add-in and oriented imagery GP tools:
-  - 
-  - 
+  - [The Oriented Imagery Add in for ArcGIS Pro](https://www.arcgis.com/home/item.html?id=19b5028e59c141239d0a262117639f81)
+  - [Oriented Imagery Management Tools for ArcGIS Pro](https://www.arcgis.com/home/item.html?id=36ee0bbedca64a5a8b68d7c69ab51728)
+I have already downloaded and installed them.
 
 
 
 
-
-## Lecture
 
 # Exercise(s)
 Please somplete the following ArcGIS tutorials on Orineted Imagery and FMV:
-  1. [Creating an Oriented Imagery Catalog in ArcGIS](https://doc.arcgis.com/en/imagery/workflows/tutorials/creating-an-oriented-imagery-catalog.htm)
+  1. [Creating an Oriented Imagery Catalog in ArcGIS](https://doc.arcgis.com/en/imagery/workflows/tutorials/creating-an-oriented-imagery-catalog.htm).
   2. Go through the [FMV player tutorial.](https://doc.arcgis.com/en/imagery/workflows/tutorials/fmv-video-player-tutorial.htm)
 
 # Homework
@@ -28,17 +27,17 @@ Please somplete the following ArcGIS tutorials on Orineted Imagery and FMV:
   - Share that feature class as a feature service.
 **Please share the feature service with me.**
 2. Take the feature service that you create in **Part 1**, and use that feature service in one of the following apps:
-  - 2D App - https://oi.geocloud.com/app/index.html
-  - 3D App - https://oi.geocloud.com/app3D/index.html
+  - 2D App - 
+  - 3D App - 
 You can do that by appending the ?oic=**oic_item_id** to either the 2D app or 3D app urls.
 **Share that link with me.**
+3. 
 
   
   
 # Orineted Imagery in ArcGIS Pro
 ## What we need
-  1. [The Oriented Imagery Add in for ArcGIS Pro](https://www.arcgis.com/home/item.html?id=19b5028e59c141239d0a262117639f81)
-  2. [Oriented Imagery Tools](https://www.arcgis.com/home/item.html?id=36ee0bbedca64a5a8b68d7c69ab51728)
+
 
  
   
