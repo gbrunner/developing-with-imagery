@@ -13,7 +13,13 @@ I have already downloaded and installed them.
 1. Create a **public access level** (*Container*) ni Azure or AWS.
 2. Upload photos into that public container or bucket. You can do this through the Azure or AWS webpage or you can do this using Optimize Rasters.
 3. Open ArcGIS Pro. I already have the OIC Geoprocessing tools installed.
-4.
+4. Add the **ManageOrientedImagery.pyt** to your Pro Project.
+5. Create an **Oriented Imagery Catalog**
+![]()
+6. Add Images to OIC
+![]()
+7. 
+
 
 1. Upload some images into Azure (or S3) public storage using optimize rasters.
 2. Create Oriented Imagery Catalog with ArcGIS Pro
