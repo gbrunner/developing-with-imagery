@@ -17,6 +17,9 @@ I have already downloaded and installed them.
 4. Look at catalog in Pro using the Orineted Imagery Viewer
 
 # Lecture 2 - Full Motion Video
+Demo the sample video if I don't have my own.
+
+
 
 
 
@@ -38,7 +41,7 @@ Please somplete the following ArcGIS tutorials on Orineted Imagery and FMV:
   
 You can do that by appending the ?oic=**oic_item_id** to either the 2D app or 3D app urls.
 **Share that link with me.**
-3. FMV assignment
+3. FMV assignment, use the data that is the output of the multiplexer tutorial if I dont' ahev my own: http://ps-dbs.maps.arcgis.com/home/item.html?id=6991aa3f29d64b838fb0e38b5cdb89ad
 
   
   
