@@ -27,12 +27,12 @@ You know what NDVI means. You have already learned what SAR is and how to use it
 None
 
 ## Prerequisites
-- Intro to GIS (using ArcGIS Pro)
-- Programming with Python
-- An ArcGIS Server\Enterprise Course
+- Intro to GIS 
 - Classical Remote Sensing
 
-## Textbooks
+## Recommended
+- Programming with Python
+- Enterprise GIS
 
 ## Course Schedule
 | Week    | Topics | Date |
@@ -45,61 +45,14 @@ None
 | 6    | Advanced Imagery Analytics - Machine Learning and Deep Learning |
 | 7    | Image Server Deployment |
 | 8    | Image Server - Image Services and Raster Analytics |
-| 9   | Using Imagery with the ArcGIS API for Javascript and REST API |
+| 9    | Using Imagery with the ArcGIS API for Javascript and REST API |
 | 10   | Using Imagery with the ArcGIS API for Python |
 | 11   | Image Coordinate Space in ArcGIS Pro, Excalibur, and Python |
 | 12   | Hand Held Imagery and Motion Video in ArcGIS Pro and on the Web |
-| ~~3~~  | ~~Raster Processing with Python\Numpy (more traditional method)~~ |
-| ~~5~~   | ~~Rasters in S3 - Optimize Rasters~~|
-| ~~6~~    | ~~Using Imagery in ArcGIS Online~~ (Rolled into Week 3)|
-| ~~10~~   |~~Advanced Methods - Leveraging AWS for Automation~~ |
-| ~~11~~   | ~~Advanced Methods with the ArcGIS API for Python~~ |
-| ~~13~~   | ~~Special Topics: Ortho Mapping (ArcGIS Pro) and Ortho Maker (Server)~~ |
+| Supplemental  | Raster Types\Python Raster Types |
+| Supplemental  | 2D and 3D Maps from Drone Imagery |  
+
 
 ## Structure of the Course
-- Weeks 1 - 5: Desktop
-- Weeks 6 - 10: Server & Cloud
-- Weeks 11 - 13: Using Imagery through Esri WebGIS APIs (Python and Javascript)
-- Weeks 14, 15: Creating Imagery Products
-
-### Week 1
-Imagery in ArcGIS Pro
-- Geoprocessing vs. Raster Functions
-- Working with individual rasters, file in, file out
-- Raster and remote sensing formats:
-  - TIFF
-  - Landsat
-  - DEM
-  - LiDAR\LAS
-  
-### Week 2
-- Intro to mosaic datasets
-- Landsat Mosaic
-- DEM Mosaic
-- Lidar Mosaic
-- Talk about other file formats
-
-### Week 3
-- Raster Processing with Numpy
-- Also show Raster proccessig using Raster Algebra and Python if necessary.
-
-### Week 4
-Python Raster Functions
-- [2018  presentation](https://www.youtube.com/watch?v=XBMZfjGn_UY)
-- [2017 Presentation](https://www.youtube.com/watch?v=OgwnKRrVHN0)
-
-### Week 5
-- [Optimize Rasters](https://github.com/Esri/OptimizeRasters/)
-- download 8 jp2\jpeg\tiff images 
-- ~~convert to MRF locally~~
-- copy to S3
-- create local raster proxy files using [Optimize Rasters](https://github.com/Esri/OptimizeRasters/)
-- add to mosaic in PostgreSQL
-- publish as image service
-
-### Week 6
-Using Imagery in ArcGIS Online will bridget the gap between Desktop and Server\Cloud. We will juxtoapose traditional workflows in ArcGIS Pro vs. those same workflows through ArcGIS Online. This will lay the framework for the next 9 weeks.
-
-Chapter 9 of Pinde Fu's [**Getting to Know WebGIS**](https://esripress.esri.com/storage/esripress/images/353/gtkwebgis_third_toc.pdf)
-
-
+- Weeks 1 - 6: Desktop: Cloud Storage, Raster Data Types, Analysis, working with rasters in Desktop.
+- Weeks 6 - 12: Entrerpise: How what we have done in desktop translate to enterprise.
