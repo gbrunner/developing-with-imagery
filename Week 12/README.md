@@ -10,6 +10,10 @@ Using the full-motion video tools requires an **Image Analyst** license. Creatin
   - [The Oriented Imagery Add in for ArcGIS Pro](https://www.arcgis.com/home/item.html?id=19b5028e59c141239d0a262117639f81)
   - [Oriented Imagery Management Tools for ArcGIS Pro](https://www.arcgis.com/home/item.html?id=36ee0bbedca64a5a8b68d7c69ab51728)
 I have already downloaded and installed them.
+1. Create a **public access level** (*Container*) ni Azure or AWS.
+2. Upload photos into that public container or bucket. You can do this through the Azure or AWS webpage or you can do this using Optimize Rasters.
+3. Open ArcGIS Pro. I already have the OIC Geoprocessing tools installed.
+4.
 
 1. Upload some images into Azure (or S3) public storage using optimize rasters.
 2. Create Oriented Imagery Catalog with ArcGIS Pro
