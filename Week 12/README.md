@@ -23,9 +23,10 @@ I have already downloaded and installed them.
 8. **Create Coverage Features**
 ![]()
 9. **Create Coverage Map**
-10 **Analyze OIC**
-10. Share oriented imagery catalog to ArcGIS Online using ArcGIS Pro. Notice that in ArcGIS Online, the **OIC** is its own item type.
-11. Look at catalog in Pro using the Orineted Imagery Viewer
+10. **Analyze OIC**
+11. Share oriented imagery catalog to ArcGIS Online using ArcGIS Pro using **Publish OIC** GP Tool. Show that in ArcGIS Online, the **OIC** is its own item type.
+12. Look at catalog in Pro using the Orineted Imagery Viewer
+13. Show OIC in the WebApp.
 
 # Lecture 2 - Full Motion Video
 Demo the sample video if I don't have my own.
