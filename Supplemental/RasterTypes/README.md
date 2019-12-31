@@ -1,7 +1,8 @@
-# Raster Types
-You can create custom raster types. For details about how to do this using python, see [raster-types](https://github.com/Esri/raster-types/wiki).
+# [Raster Types](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/what-is-a-raster-type.htm)
+Raster data is added to a mosaic dataset by specifying a raster type. The raster type identifies metadata, such as georeferencing, acquisition date, sensor type, and band wavelengths, along with a raster format. A raster format defines how pixels are stored, such as number of rows and columns, number of bands, actual pixel values, and other raster format-specific parameters. 
+You can create custom raster types using Python. For details about how to do this using python, see [raster-types](https://github.com/Esri/raster-types/wiki). This lecture will demonstrate how to do this.
 
-# Lecture
+# Lecture 1 - Applying a Custom Python Raster Type
 1. Raster Types location in ArcGIS Pro: ```C:\Program Files\ArcGIS\Pro\Resources\Raster\Types```
 2. Create a folder in that directors, name it **SINGSTypes**
 3. Put the **SpitzerSINGS_RasterType.py** and **SINGS_Default.rft** in that folder.
