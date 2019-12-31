@@ -8,7 +8,7 @@ You can create custom raster types. For details about how to do this using pytho
 4. Open ArcGIS Pro. Create a new Project.
 5. Create a new mosaic dataset.
 6. Add Rasters to the mosaic dataset
-![]()
+![](https://github.com/gbrunner/developing-with-imagery/blob/master/Supplemental/RasterTypes/SINGS_RasterType.png?raw=true)
 7. Open the mosaic table and check that the fields are there
-![]()
+![](https://github.com/gbrunner/developing-with-imagery/blob/master/Supplemental/RasterTypes/SINGS_Mosaic.png?raw=true)
 
