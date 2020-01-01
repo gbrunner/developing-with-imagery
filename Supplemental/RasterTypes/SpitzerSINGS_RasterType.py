@@ -6,6 +6,8 @@ import arcpy
 from datetime import datetime
 from dateutil import tz
 
+# Missing 4710
+
 meta_data_dict ={
    'DDO053':{
       'OBJECT':'DDO053',
@@ -63,8 +65,8 @@ meta_data_dict ={
       'CREATOR':'S14.0.0',
       'ORIGIN':'NOAO-IRAF FITS Image Kernel July 2003'
    },
-   'IC 4710':{
-      'OBJECT':'IC 4710',
+   'IC4710':{
+      'OBJECT':'IC4710',
       'DATE':'2007-03-27T18:00:44',
       'TELESCOP':'Spitzer',
       'INSTRUME':'IRAC',
@@ -119,7 +121,7 @@ meta_data_dict ={
       'CREATOR':'S14.0.0',
       'ORIGIN':'NOAO-IRAF FITS Image Kernel July 2003'
    },
-   'NGC628':{
+   'NGC0628':{
       'OBJECT':'NGC628',
       'DATE':'2007-03-27T19:07:50',
       'TELESCOP':'Spitzer',
@@ -231,8 +233,8 @@ meta_data_dict ={
       'CREATOR':'S14.0.0',
       'ORIGIN':'NOAO-IRAF FITS Image Kernel July 2003'
    },
-   'NGC2798 offset':{
-      'OBJECT':'NGC2798 offset',
+   'NGC2798':{
+      'OBJECT':'NGC2798',
       'DATE':'2007-03-27T22:08:05',
       'TELESCOP':'Spitzer',
       'INSTRUME':'IRAC',
@@ -503,8 +505,16 @@ meta_data_dict ={
       'CREATOR':'S14.0.0',
       'ORIGIN':'NOAO-IRAF FITS Image Kernel July 2003'
    },
-   'NGC5194_95':{
-      'OBJECT':'NGC5194_95',
+   'NGC5194':{
+      'OBJECT':'NGC5194',
+      'DATE':'2007-03-30T05:12:24',
+      'TELESCOP':'Spitzer',
+      'INSTRUME':'IRAC',
+      'CREATOR':'S14.0.0',
+      'ORIGIN':'NOAO-IRAF FITS Image Kernel July 2003'
+   },
+   'NGC5195':{
+      'OBJECT':'NGC5195',
       'DATE':'2007-03-30T05:12:24',
       'TELESCOP':'Spitzer',
       'INSTRUME':'IRAC',
@@ -603,13 +613,13 @@ class RasterTypeFactory:
     def getRasterTypesInfo(self):
         self.object_auxField = arcpy.Field()
         self.object_auxField.name = 'Object'
-        self.object_auxField.aliasName = 'Module'
+        self.object_auxField.aliasName = 'Object'
         self.object_auxField.type = 'String'
         self.object_auxField.length = 20
 
         self.telescope_auxField = arcpy.Field()
         self.telescope_auxField.name = 'Telescope'
-        self.telescope_auxField.aliasName = 'Observation Type'
+        self.telescope_auxField.aliasName = 'Telescope'
         self.telescope_auxField.type = 'String'
         self.telescope_auxField.length = 20
 
@@ -646,7 +656,7 @@ class RasterTypeFactory:
                 'enableClipToFootprint': True,
                 'isRasterProduct': True,
                 'dataSourceType': (DataSourceType.File | DataSourceType.Folder),
-                'dataSourceFilter': '*.tif',
+                'dataSourceFilter': '*.mrf, *.lrc, *.tif',
                 # 'supportedUriFilters': [
                 #    {
                 #        'name': 'Levels',
@@ -659,30 +669,30 @@ class RasterTypeFactory:
                     {
                         'name': 'SINGS_Default',
                         'enabled': False,
-                        'outputDatasetTag': 'Thematic',
-                        'primaryInputDatasetTag': 'Thematic',
+                        'outputDatasetTag': 'Multispectral',
+                        'primaryInputDatasetTag': 'Multispectral',
                         'isProductTemplate': False,
                         'functionTemplate': 'SINGS_Default.rft.xml'
                     }
                 ],
                 'bandProperties': [
                     {
-                        'bandName': 'IRAC 1',
+                        'bandName': 'IRAC1',
                         'bandIndex': 1,
                         'datasetTag': 'Spiter IRAC'
                     },
                     {
-                        'bandName': 'IRAC 2',
+                        'bandName': 'IRAC2',
                         'bandIndex': 2,
                         'datasetTag': 'Spiter IRAC'
                     },
                     {
-                        'bandName': 'IRAC 3',
+                        'bandName': 'IRAC3',
                         'bandIndex': 3,
                         'datasetTag': 'Spiter IRAC'
                     },
                     {
-                        'bandName': 'IRAC 4',
+                        'bandName': 'IRAC ',
                         'bandIndex': 4,
                         'datasetTag': 'Spiter IRAC'
                     }
@@ -709,7 +719,14 @@ class SINGSBuilder():
 
     def build(self, itemURI):
         # Make sure that the itemURI dictionary contains items
-        print(itemURI)
+
+        #debug_logs_directory = r'C:\PROJECTS\SINGS'
+        #fname = '{:%Y_%b_%d_%H_%M_%S}_itemURI.txt'.format(datetime.now())
+        #filename = os.path.join(debug_logs_directory, fname)
+
+        #file = open(filename, "w")
+        #file.write(str(itemURI))
+        #file.close()
 
         arcpy.AddMessage(itemURI)
         if len(itemURI) <= 0:
@@ -734,12 +751,15 @@ class SINGSBuilder():
 
             metadata = {}
 
+
+
             metadata['object'] = image_item['OBJECT']
             metadata['date'] = image_item['DATE']
             metadata['telescope'] = image_item['TELESCOP']
             metadata['instrument'] = image_item['INSTRUME']
             metadata['creator'] = image_item['CREATOR']
             metadata['origin'] = image_item['ORIGIN']
+
 
             # define a dictionary of variables
             variables = {}
@@ -753,25 +773,16 @@ class SINGSBuilder():
             builtItem['itemUri'] = rasterPath
 
             builtItem['raster'] = {'uri': itemURI['path']}
-            # {'functionDataset':
-            # {'rasterFunction': 'GAEZ_Res01_Default.rft.xml',
-            #  'rasterFunctionArguments': {
-            #      'Raster1': rasterPath
-            #      }
-            #  }
-            # }
+
+
+            #fname = '{:%Y_%b_%d_%H_%M_%S}_builtItem.txt'.format(datetime.now())
+            #filename = os.path.join(debug_logs_directory, fname)
+            #file = open(filename,"w")
+            #file.write(str(builtItem))
+            #file.close()
 
             builtItemsList = list()
             builtItemsList.append(builtItem)
-
-            # import datetime
-            #debug_logs_directory = r'C:\PROJECTS\SINGS'
-            #fname = '{:%Y_%b_%d_%H_%M_%S}_t.txt'.format(datetime.datetime.now())
-            #filename = os.path.join(debug_logs_directory, fname)
-
-            #file = open(filename,"w")
-            #file.write(str(builtItemsList))
-            #file.close()
 
             return builtItemsList
 
