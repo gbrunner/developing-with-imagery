@@ -76,4 +76,4 @@ return builtItemsList
 ```
 
 ## Developing and Debugging the Raster Type
-In [test_sings_raster_type.ipynb]() I show an approach to testing a Python Raster Type. I can copy the entire Python code into a cell in the notebook. I run the cell, then I can instantiate the class and run it.
+In [test_sings_raster_type.ipynb](https://github.com/gbrunner/developing-with-imagery/blob/master/Supplemental/RasterTypes/test_sings_raster_type.ipynb) I show an approach to testing a Python Raster Type. I can copy the entire Python code into a cell in the notebook. I run the cell, then I can instantiate the class and run it.
