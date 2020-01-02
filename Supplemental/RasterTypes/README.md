@@ -45,3 +45,32 @@ Parameters that you will see when you open the ** Add Rasters to Mosaic Dataset*
 ```'processingTemplates': [``` - Processing templates that you can choose to apply with the Raster Type.
 
 ```'fields': [self.object_auxField,``` - The fields to be added to the mosaic dataset table.
+
+### [Builder Class](https://github.com/Esri/raster-types/wiki/Builder-API)
+
+```class SINGSBuilder():``` - Builder class definition.
+
+```def build(self, itemURI):``` - This method is used to construct builder item(s) which consists of the dataset, metadata, footprint etc.
+
+We can assign values to fields in the mosaic dataset table as follows:
+```
+metadata['object'] = image_item['OBJECT']
+metadata['date'] = image_item['DATE']
+metadata['telescope'] = image_item['TELESCOP']
+metadata['instrument'] = image_item['INSTRUME']
+metadata['creator'] = image_item['CREATOR']
+metadata['origin'] = image_item['ORIGIN']
+```
+
+You update the mosaic dataset by assigning the item properties to the ```builtItemList```, which gets returned by the ```build``` function.
+
+```
+builtItem = {}
+builtItem['keyProperties'] = metadata
+builtItem['itemUri'] = rasterPath
+builtItem['raster'] = {'uri': itemURI['path']}
+builtItemsList = list()
+builtItemsList.append(builtItem)
+
+return builtItemsList
+```
