@@ -33,9 +33,15 @@ self.object_auxField.length = 20
 Parameters that you will see when you open the ** Add Rasters to Mosaic Dataset** GP tool and select the specified raster funtion.
 
 ```'rasterTypeName': 'SINGS',``` - Name of the Raster Type.
+
 ```'builderName': 'SINGSBuilder',``` - Name of the class that defines the Python Raster Type.
+
 ```'description': ("Supports Spitzer Space Telescop SINGS Data."),``` - Description of Raster Type.
+
 ```'dataSourceType': (DataSourceType.File | DataSourceType.Folder),``` - Types of input data sources that you'll see when running **Add Rasters to Mosaic Dataset**.
+
 ```'dataSourceFilter': '*.mrf, *.lrc, *.tif',``` - File filters that you can enable.
+
 ```'processingTemplates': [``` - Processing templates that you can choose to apply with the Raster Type.
+
 ```'fields': [self.object_auxField,``` - The fields to be added to the mosaic dataset table.
