@@ -22,7 +22,7 @@ This week, we will use the [DAYMET monthly climate summary NetCDF datasets](http
 8. Export Raster as CRF. We will use this as input into the arcpy API.
 
 # Lecture 2 - Multidimensional Data with Arcpy
-Demonstrate how we can use **Raster** objects using the **arcpy API** to do similar analysis. This can be demonstrated through the **multidimensional_data_using_arcpy_api.ipynb** Notebook.
+Demonstrate how we can use **Raster** objects using the **arcpy API** to do similar analysis. This can be demonstrated through the [**multidimensional_data_using_arcpy_api.ipynb**](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%205/multidimensional_data_using_arcpy_api.ipynb) Notebook.
 
 # Lecture 3 - Multidimensional Data with Xarray
 
