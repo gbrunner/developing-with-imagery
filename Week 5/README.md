@@ -43,10 +43,10 @@ for i in range(12):
     out_raster_subset = arcpy.ia.Subset(myRaster, variables='tmin', dimension_definitions = {'stdTime': myRaster.getDimensionValues('tmin', 'StdTime')[i]})   
     
     print(arcpy.GetCellValue_management(out_raster_subset, location_point="0 0"))
-```
+``` 
 **Submit your Notebook.**
 
-3.
+3. Using [xarray] and the multidimensional_data_with_xarray.ipynb Notebook as a template, create a temperature profile over a specific location for at least 3 years from the **tmin** data. Wich approach to you like more, ArcGIS Pro, arcpy, or xarray? **Submit your notebook**.
 
 # Interesting Links
 [DAYMET Climate Data](https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=32)
