@@ -22,18 +22,11 @@ This week, we will use the [DAYMET monthly climate summary NetCDF datasets](http
 8. Export Raster as CRF. We will use this as input into the arcpy API.
 
 # Lecture 2 - Multidimensional Data with Arcpy
+Demonstrate how we can use **Raster** objects using the **arcpy API** to do similar analysis. This can be demonstrated through the **multidimensional_data_using_arcpy_api.ipynb** Notebook.
 
-# Lecture 3 - Multidimensional Data in Python Raster Functions
+# Lecture 3 - Multidimensional Data with Xarray
 
-# Lecture 4 - Multidimensional Data with Xarray
-
-### NetCDF
-Here, we will use the [DAYMET climatelogical dataset](https://thredds.daac.ornl.gov/thredds/catalog/ornldaac/1345/catalog.html) for our data exploration.
-
-1. With GP Tools
-2. With arcpy.Raster
-3. With [xarray](http://xarray.pydata.org/en/stable/)
-4. With a Python Raster Function
+# Lecture 4 (if there is enough time) - Multidimensional Data in Python Raster Functions
 
 
 # Exercise
@@ -49,7 +42,9 @@ for i in range(12):
     print(arcpy.GetCellValue_management(out_raster_subset, location_point="0 0"))
 ```
 **Submit your Notebook.**
-3
+
+3.
+
 # Links
 [Digital Earth Africa](https://www.africageoportal.com/pages/digital-earth-africa)
 
