@@ -19,7 +19,7 @@ This week, we will use the [DAYMET monthly climate summary NetCDF datasets](http
 6. Set chart parameters.
 7. Choose **Point** for **Area of Interest** and click on map to see temperature profile.
 ![](temp_profiles.png)
-
+8. Export Raster as CRF. We will use this as input into the arcpy API.
 
 # Lecture 2 - Multidimensional Data with Arcpy
 
