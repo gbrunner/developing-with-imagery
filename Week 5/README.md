@@ -40,7 +40,9 @@ Demonstrate how we can use **Raster** objects using the **arcpy API** to do simi
 2. Using the arcpy API, use the mosaic dataset that you creates and create a temperature profile using Python over Houston, TX. You can get the pixel values using ```arcpy.GetCellValue_management()```, for example:
 ```
 for i in range(12):
-    out_raster_subset = arcpy.ia.Subset(myRaster, variables='tmin', dimension_definitions = {'stdTime': myRaster.getDimensionValues('tmin', 'StdTime')[i]})   
+    out_raster_subset = arcpy.ia.Subset(myRaster, 
+        variables='tmin', 
+        dimension_definitions = {'stdTime': myRaster.getDimensionValues('tmin', 'StdTime')[i]})   
     
     print(arcpy.GetCellValue_management(out_raster_subset, location_point="0 0"))
 ``` 
