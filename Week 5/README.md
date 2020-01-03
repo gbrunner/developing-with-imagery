@@ -41,8 +41,15 @@ Here, we will use the [DAYMET climatelogical dataset](https://thredds.daac.ornl.
 
 # Challenges
 1. Create a mosaic dataset from all of the **DAYMET** NetCDF files in the **tmax** folder. Using the mosaic dataset, crreate temporal charts showing the tempertature change over time from beginning of the dataset to the end for the cities of New York, Houston, Minneapolis, and Los Angeles. Do you notice any trend in the profiles other than the seasonality?  **Submit the plots as graphics.** They can be saved out of ArcGIS Pro as graphics.
-2.
-
+2. Using the arcpy API, use the mosaic dataset that you creates and create a temperature profile using Python over Houston, TX. You can get the pixel values using ```arcpy.GetCellValue_management()```, for example:
+```
+for i in range(12):
+    out_raster_subset = arcpy.ia.Subset(myRaster, variables='tmin', dimension_definitions = {'stdTime': myRaster.getDimensionValues('tmin', 'StdTime')[i]})   
+    
+    print(arcpy.GetCellValue_management(out_raster_subset, location_point="0 0"))
+```
+**Submit your Notebook.**
+3
 # Links
 [Digital Earth Africa](https://www.africageoportal.com/pages/digital-earth-africa)
 
