@@ -31,13 +31,14 @@ Demonstrate how we can use **Raster** objects using the **arcpy API** to do simi
 You can use xarray, an open source Python library to work with multidimensional data. For those of you who are fluent at Python, numpy, and pandas, you will probably like xarray. I will not cover every detail of the Python library, but I will go through how to work with NetDCF files in the [multidimensional_data_using_xarray.ipynb](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%205/multidimensional_data_using_xarray.ipynb) Notebook. 
 
 # Lecture 4 (if there is enough time) - Multidimensional Data in Python Raster Functions
-
+The same techniques that we used last week to create raster functions with Landsat can be applied to Multidimensional NetCDF data. If there is enough time, we can discuss this.
 
 # Exercise
 1. Run through the ArcGIS Tutorial on [Multidimensional raster analysis in ArcGIS Pro](https://doc.arcgis.com/en/imagery/workflows/tutorials/multidimensional-raster-analysis-in-arcgis-pro.htm?adumkts=product&adupro=ArcGIS_Image_Analyst&aduc=social&adum=external&utm_Source=social&aduca=Imagery&RemoteSensing&adulb=multiple&adusn=multiple&aduat=blog&sf_id=701f2000000rpWvAAI)
 
 # Challenges
 1. Create a mosaic dataset from all of the **DAYMET** NetCDF files in the **tmax** folder. Using the mosaic dataset, crreate temporal charts showing the tempertature change over time from beginning of the dataset to the end for the cities of New York, Houston, Minneapolis, and Los Angeles. Do you notice any trend in the profiles other than the seasonality?  **Submit the plots as graphics.** They can be saved out of ArcGIS Pro as graphics.
+
 2. Using the arcpy API, use the mosaic dataset that you creates and create a temperature profile using Python over Houston, TX. **Submit your Notebook.** You can get the pixel values using ```arcpy.GetCellValue_management()```, for example:
 ```
 for i in range(12):
@@ -47,7 +48,6 @@ for i in range(12):
     
     print(arcpy.GetCellValue_management(out_raster_subset, location_point="0 0"))
 ``` 
-
 
 3. Using **xarray** and the [multidimensional_data_with_xarray.ipynb](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%205/multidimensional_data_using_xarray.ipynb) Notebook as a template, create a temperature profile over a specific location for at least 3 years from the **tmin** data. Wich approach to you like more, ArcGIS Pro, arcpy, or xarray? **Submit your notebook**. If you are bold, install **dask** and try to load the datasets using the following code.
 ```
