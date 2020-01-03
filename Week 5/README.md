@@ -13,12 +13,15 @@ This week, we will use the [DAYMET monthly climate summary NetCDF datasets](http
 2. Add Data
 3. Choose Multidimensional Raster Layer and then add **daymet_v3_tmin_monavg_2017_na.nc4***.
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%205/add_multidim_raster_layer.png?raw=true)
+
 4. Notice how th data gets added with a time-slider in the view.
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%205/multidim_raster_layer.png?raw=true)
+
 5. Right click on layer in Table of Contents. **Select Create Chart** -> **Temporal Profile**
 6. Set chart parameters.
 7. Choose **Point** for **Area of Interest** and click on map to see temperature profile.
 ![](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%205/temp_profiles.png?raw=true)
+
 8. Export Raster as CRF. We will use this as input into the arcpy API.
 
 # Lecture 2 - Multidimensional Data with Arcpy
@@ -45,6 +48,7 @@ for i in range(12):
 
 3.
 
-# Links
+# Interesting Links
+[DAYMET Climate Data](https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=32)
 [Digital Earth Africa](https://www.africageoportal.com/pages/digital-earth-africa)
 
