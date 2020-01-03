@@ -1,4 +1,4 @@
-# 3D and 4D Data
+# Multidimmensional Data and Scientific Data
 In this lecture we will discuss multidimmensional data. We will learn how you can interact with it through ArcGIS Pro, arcpy, and [xarray](http://xarray.pydata.org/en/stable/) and different kinds of analysis that can be done agaist spatio-temporal scientific datasets.
 
 This week, we will use the [DAYMET monthly climate summary NetCDF datasets](https://daac.ornl.gov/DAYMET/guides/Daymet_V3_Monthly_Climatology.html)
