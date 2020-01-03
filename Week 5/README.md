@@ -56,7 +56,7 @@ mfdataDIR = '../data/ARM/twparmbeatmC1.c1.*.000000.cdf'
 DS = xr.open_mfdataset(mfdataDIR)
 ```
 
-4. Using the Landsat mosaic you created in **Week 3**, can you create a temporal profile chart using Pro **or** Python?
+4. Using the Landsat mosaic you created in **Week 3**, can you create a temporal profile chart using **ArcGIS Pro or Python**?
 
 
 # Interesting Links
