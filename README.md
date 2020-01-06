@@ -50,9 +50,9 @@ None
 | 8    | Image Server - Image Services and Raster Analytics |
 | 9    | Using Imagery with the ArcGIS API for Javascript and REST API |
 | 10   | Using Imagery with the ArcGIS API for Python |
-| 11   | Image Coordinate Space in ArcGIS Pro, Excalibur, and Python |
-| 12   | Hand Held Imagery and Motion Video in ArcGIS Pro and on the Web |
-| Supplemental  | Raster Types\Python Raster Types |
+| 11   | [Image Coordinate Space in ArcGIS Pro, Excalibur, and Python](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%2011/README.md) |
+| 12   | [Hand Held Imagery and Motion Video in ArcGIS Pro and on the Web](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%2012/README.md) |
+| Supplemental  | [Raster Types\Python Raster Types](https://github.com/gbrunner/developing-with-imagery/blob/master/Supplemental/RasterTypes/README.md) |
 | Supplemental  | 2D and 3D Maps from Drone Imagery |  
 
 
