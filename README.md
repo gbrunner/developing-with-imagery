@@ -1,4 +1,5 @@
 # enterprise-imagery-management-dissemination-analysis
+**(Advanced Topics of Remote Sensing: Enterprise Imagery Management)**
 Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
 # AWS
@@ -19,7 +20,7 @@ Email Address:	gbrunner@esri.com
 Office Hours:	By request  
 
 ## Description
-You know what NDVI means. You have already learned what SAR is and how to use it. You even know a little bit or raster algebra. What you really want to know, however, is *how does Esri create and maintain their [global Landast service](https://aws.amazon.com/earth/)?*  *How do I use Python to interface with ArcGIS Image Services?* *What can I do with drone imagery?*  In **Enterprise Imagery Management, Dissemination, and Analysis**, you will learn how to create global imagery mosaics, write and implement advanced imagery analysis algorithms, apply these analytical methods at scale using AWS and raster Analyics. You will also learn techniques for processing and analysing imagery collected by drones and other highly oblique imagery datasets.
+You know what NDVI means. You have already learned what a digital elevatio model is and what it can be used for. You even know a little bit or raster algebra. What you really want to know, however, is *how do I create and maintain a [global Landast image service](https://aws.amazon.com/earth/)?*  *How do I use Python to interface with Image Services?* *What can I do with motion video and frone drone imagery?*  In **Enterprise Imagery Management, Dissemination, and Analysis**, you will learn how to create global imagery mosaics, write and implement advanced imagery analysis algorithms, apply these analytical methods at scale using AWS and raster analyics. You will also learn techniques for processing and analysing imagery collected by drones and other highly oblique imagery datasets.
 
 ## Course Objectives
 
