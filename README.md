@@ -1,5 +1,7 @@
 # enterprise-imagery-management-dissemination-analysis
+
 **(Advanced Topics of Remote Sensing: Enterprise Imagery Management)**
+
 Repo for develping materials for a class in Enterprise Imagery Management, Dissemination, and Analysis
 
 # AWS
@@ -38,11 +40,11 @@ None
 ## Course Schedule
 | Week    | Topics | Date |
 |---------|--------| ---- |
-| 1    | "That's Meta" - Using Imagery from the Cloud in ArcGIS Pro |
-| 2    | "What's Old is New" - Mosaic Datasets from Imagery in Cloud Storage (S3 and Azure) |
-| 3    | ["Raster Function, What's Your Function?"](https://www.youtube.com/watch?v=RPoBE-E8VOc) - Raster Functions vs. Geoprocessing |
-| 4    | Python Raster Functions (Paradigm for analysis at scale) |
-| 5    | Multidimmensional Data and Scientific Data |
+| 1    | [That's Meta - Imagery in the Cloud](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%201/README.md) |
+| 2    | [Connecting to the Cloud](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%202/README.md) |
+| 3    | [Raster Analysis](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%203/README.md) |
+| 4    | [Writing Custom Image Analysis Algorithms](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%204/README.md) |
+| 5    | [Multidimmensional Data and Scientific Data](https://github.com/gbrunner/developing-with-imagery/blob/master/Week%205/README.md) |
 | 6    | Advanced Imagery Analytics - Machine Learning and Deep Learning |
 | 7    | Image Server Deployment |
 | 8    | Image Server - Image Services and Raster Analytics |
