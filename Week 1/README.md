@@ -108,6 +108,9 @@ arcpy.env.workspace = "C:\\Users\\greg6750\\Documents\\ArcGIS\\Projects\\AWS Con
 arcpy.ListRasters()
 ```
 4. For a selected **SpaceNet-Dataset** image, can you write a script or notebook that prints out the information you gathered above? Follow the **gdal_python** or **rasterio_python** tutorials.
+5.  (Was working at 2.4 and 2.5, not working at 2.6.x) The cloud storage connection (.acs file) can be used as an arcpy workspace environment variable. Create an ArcGIS Notebook or Jupyter notebook, set the arcpy workspace to be a subfolder within one of your cloud storage connection files, and use arcpy.ListRasters() to generate a list of rasters within the folder.
+arcpy.env.workspace = "C:\\Users\\greg6750\\Documents\\ArcGIS\\Projects\\AWS Connections\\SpaceNetOnAWS.acs\\AOIs\\AOI_2_Vegas\\PS-RGB"
+arcpy.ListRasters()
 
 
 ### What Else?
